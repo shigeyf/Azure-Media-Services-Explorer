@@ -244,233 +244,138 @@
             // 
             // label3
             // 
-            this.label3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(25, 550);
+            resources.ApplyResources(this.label3, "label3");
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(126, 15);
-            this.label3.TabIndex = 22;
-            this.label3.Text = "Output asset(s) name :";
             // 
             // textboxoutputassetname
             // 
-            this.textboxoutputassetname.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.textboxoutputassetname.Location = new System.Drawing.Point(27, 568);
+            resources.ApplyResources(this.textboxoutputassetname, "textboxoutputassetname");
             this.textboxoutputassetname.Name = "textboxoutputassetname";
-            this.textboxoutputassetname.Size = new System.Drawing.Size(521, 23);
-            this.textboxoutputassetname.TabIndex = 21;
             // 
             // label1
             // 
-            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(25, 502);
+            resources.ApplyResources(this.label1, "label1");
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(77, 15);
-            this.label1.TabIndex = 18;
-            this.label1.Text = "Job(s) name :";
             // 
             // textBoxJobName
             // 
-            this.textBoxJobName.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBoxJobName.Location = new System.Drawing.Point(28, 520);
+            resources.ApplyResources(this.textBoxJobName, "textBoxJobName");
             this.textBoxJobName.Name = "textBoxJobName";
-            this.textBoxJobName.Size = new System.Drawing.Size(522, 23);
-            this.textBoxJobName.TabIndex = 13;
             // 
             // labelWarningJSON
             // 
-            this.labelWarningJSON.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            resources.ApplyResources(this.labelWarningJSON, "labelWarningJSON");
             this.labelWarningJSON.ForeColor = System.Drawing.Color.Red;
-            this.labelWarningJSON.Location = new System.Drawing.Point(151, 157);
             this.labelWarningJSON.Name = "labelWarningJSON";
-            this.labelWarningJSON.Size = new System.Drawing.Size(554, 21);
-            this.labelWarningJSON.TabIndex = 77;
             this.labelWarningJSON.Tag = "JSON Syntax error. {0}";
-            this.labelWarningJSON.Text = "JSON Syntax error. {0}";
-            this.labelWarningJSON.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.labelWarningJSON.Visible = false;
             // 
             // moreinfopresetslink
             // 
-            this.moreinfopresetslink.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.moreinfopresetslink.AutoSize = true;
-            this.moreinfopresetslink.Location = new System.Drawing.Point(547, 84);
+            resources.ApplyResources(this.moreinfopresetslink, "moreinfopresetslink");
             this.moreinfopresetslink.Name = "moreinfopresetslink";
-            this.moreinfopresetslink.Size = new System.Drawing.Size(158, 15);
-            this.moreinfopresetslink.TabIndex = 76;
             this.moreinfopresetslink.TabStop = true;
-            this.moreinfopresetslink.Text = "More information on presets";
             this.moreinfopresetslink.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel_LinkClicked);
             // 
             // richTextBoxDesc
             // 
             this.richTextBoxDesc.AcceptsTab = true;
-            this.richTextBoxDesc.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.richTextBoxDesc.Location = new System.Drawing.Point(318, 29);
+            resources.ApplyResources(this.richTextBoxDesc, "richTextBoxDesc");
             this.richTextBoxDesc.Name = "richTextBoxDesc";
             this.richTextBoxDesc.ReadOnly = true;
-            this.richTextBoxDesc.Size = new System.Drawing.Size(387, 52);
-            this.richTextBoxDesc.TabIndex = 75;
-            this.richTextBoxDesc.Text = "";
             // 
             // label4KWarning
             // 
-            this.label4KWarning.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            resources.ApplyResources(this.label4KWarning, "label4KWarning");
             this.label4KWarning.ForeColor = System.Drawing.Color.Red;
-            this.label4KWarning.Location = new System.Drawing.Point(318, 100);
             this.label4KWarning.Name = "label4KWarning";
-            this.label4KWarning.Size = new System.Drawing.Size(387, 23);
-            this.label4KWarning.TabIndex = 73;
             this.label4KWarning.Tag = "Warning : you should use a S3 Media RU for 4K";
-            this.label4KWarning.Text = "Warning : you should use a S3 Media RU for 4K";
-            this.label4KWarning.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label4
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(10, 10);
+            resources.ApplyResources(this.label4, "label4");
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(187, 15);
-            this.label4.TabIndex = 44;
-            this.label4.Text = "Select a preset or load a JSON file :";
             // 
             // listboxPresets
             // 
-            this.listboxPresets.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            resources.ApplyResources(this.listboxPresets, "listboxPresets");
             this.listboxPresets.FormattingEnabled = true;
-            this.listboxPresets.ItemHeight = 15;
-            this.listboxPresets.Location = new System.Drawing.Point(14, 29);
             this.listboxPresets.Name = "listboxPresets";
-            this.listboxPresets.Size = new System.Drawing.Size(285, 109);
-            this.listboxPresets.TabIndex = 43;
             this.listboxPresets.SelectedIndexChanged += new System.EventHandler(this.listboxPresets_SelectedIndexChanged);
             // 
             // buttonSaveXML
             // 
-            this.buttonSaveXML.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.buttonSaveXML.Location = new System.Drawing.Point(548, 127);
+            resources.ApplyResources(this.buttonSaveXML, "buttonSaveXML");
             this.buttonSaveXML.Name = "buttonSaveXML";
-            this.buttonSaveXML.Size = new System.Drawing.Size(157, 27);
-            this.buttonSaveXML.TabIndex = 42;
-            this.buttonSaveXML.Text = "Save edited JSON...";
             this.buttonSaveXML.UseVisualStyleBackColor = true;
             this.buttonSaveXML.Click += new System.EventHandler(this.buttonSaveXML_Click);
             // 
             // buttonLoadXML
             // 
-            this.buttonLoadXML.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.buttonLoadXML.Location = new System.Drawing.Point(385, 127);
+            resources.ApplyResources(this.buttonLoadXML, "buttonLoadXML");
             this.buttonLoadXML.Name = "buttonLoadXML";
-            this.buttonLoadXML.Size = new System.Drawing.Size(157, 27);
-            this.buttonLoadXML.TabIndex = 41;
-            this.buttonLoadXML.Text = "Load a preset JSON file...";
             this.buttonLoadXML.UseVisualStyleBackColor = true;
             this.buttonLoadXML.Click += new System.EventHandler(this.buttonLoadJSON_Click);
             // 
             // label2
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(10, 160);
+            resources.ApplyResources(this.label2, "label2");
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(135, 15);
-            this.label2.TabIndex = 38;
-            this.label2.Text = "JSON or XML (editable) :";
             // 
             // textBoxConfiguration
             // 
-            this.textBoxConfiguration.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBoxConfiguration.Font = new System.Drawing.Font("Consolas", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxConfiguration.Location = new System.Drawing.Point(14, 179);
-            this.textBoxConfiguration.Multiline = true;
+            resources.ApplyResources(this.textBoxConfiguration, "textBoxConfiguration");
             this.textBoxConfiguration.Name = "textBoxConfiguration";
-            this.textBoxConfiguration.ScrollBars = System.Windows.Forms.ScrollBars.Both;
-            this.textBoxConfiguration.Size = new System.Drawing.Size(691, 144);
-            this.textBoxConfiguration.TabIndex = 27;
             this.textBoxConfiguration.TextChanged += new System.EventHandler(this.textBoxConfiguration_TextChanged);
             // 
             // label34
             // 
-            this.label34.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.label34.AutoSize = true;
-            this.label34.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold);
+            resources.ApplyResources(this.label34, "label34");
             this.label34.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(128)))), ((int)(((byte)(171)))));
-            this.label34.Location = new System.Drawing.Point(524, 13);
             this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(232, 25);
-            this.label34.TabIndex = 63;
-            this.label34.Text = "Media Encoder Standard";
-            this.label34.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
             // buttonCancel
             // 
-            this.buttonCancel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            resources.ApplyResources(this.buttonCancel, "buttonCancel");
             this.buttonCancel.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.buttonCancel.Location = new System.Drawing.Point(644, 15);
             this.buttonCancel.Name = "buttonCancel";
-            this.buttonCancel.Size = new System.Drawing.Size(115, 27);
-            this.buttonCancel.TabIndex = 4;
-            this.buttonCancel.Text = "Cancel";
             this.buttonCancel.UseVisualStyleBackColor = true;
             // 
             // buttonOk
             // 
-            this.buttonOk.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            resources.ApplyResources(this.buttonOk, "buttonOk");
             this.buttonOk.DialogResult = System.Windows.Forms.DialogResult.OK;
             this.buttonOk.Image = global::AMSExplorer.Bitmaps.encoding;
-            this.buttonOk.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.buttonOk.Location = new System.Drawing.Point(475, 15);
             this.buttonOk.Name = "buttonOk";
-            this.buttonOk.Size = new System.Drawing.Size(163, 27);
-            this.buttonOk.TabIndex = 5;
-            this.buttonOk.Text = "Launch encoding";
             this.buttonOk.UseVisualStyleBackColor = true;
             // 
             // panel1
             // 
-            this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            resources.ApplyResources(this.panel1, "panel1");
             this.panel1.BackColor = System.Drawing.SystemColors.Control;
             this.panel1.Controls.Add(this.buttonCancel);
             this.panel1.Controls.Add(this.buttonOk);
-            this.panel1.Location = new System.Drawing.Point(1, 606);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(771, 55);
-            this.panel1.TabIndex = 66;
             // 
             // openFileDialogPreset
             // 
             this.openFileDialogPreset.DefaultExt = "xml";
-            this.openFileDialogPreset.Filter = "Preset files|*.json|All files|*.*";
+            resources.ApplyResources(this.openFileDialogPreset, "openFileDialogPreset");
             // 
             // saveFileDialogPreset
             // 
             this.saveFileDialogPreset.DefaultExt = "xml";
-            this.saveFileDialogPreset.Filter = "Preset file|*.json|All files|*.*";
+            resources.ApplyResources(this.saveFileDialogPreset, "saveFileDialogPreset");
             // 
             // moreinfoame
             // 
-            this.moreinfoame.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.moreinfoame.AutoSize = true;
-            this.moreinfoame.Location = new System.Drawing.Point(655, 68);
+            resources.ApplyResources(this.moreinfoame, "moreinfoame");
             this.moreinfoame.Name = "moreinfoame";
-            this.moreinfoame.Size = new System.Drawing.Size(101, 15);
-            this.moreinfoame.TabIndex = 73;
             this.moreinfoame.TabStop = true;
-            this.moreinfoame.Text = "More information";
             this.moreinfoame.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel_LinkClicked);
             // 
             // tabControl1
             // 
-            this.tabControl1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            resources.ApplyResources(this.tabControl1, "tabControl1");
             this.tabControl1.Controls.Add(this.TabPagePreset);
             this.tabControl1.Controls.Add(this.TabPageAdvanced);
             this.tabControl1.Controls.Add(this.tabPageTrimCrop);
@@ -478,11 +383,8 @@
             this.tabControl1.Controls.Add(this.tabPageThPNG);
             this.tabControl1.Controls.Add(this.tabPageThJPG);
             this.tabControl1.Controls.Add(this.tabPageThBMP);
-            this.tabControl1.Location = new System.Drawing.Point(24, 97);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(732, 389);
-            this.tabControl1.TabIndex = 74;
             // 
             // TabPagePreset
             // 
@@ -496,12 +398,8 @@
             this.TabPagePreset.Controls.Add(this.buttonLoadXML);
             this.TabPagePreset.Controls.Add(this.buttonSaveXML);
             this.TabPagePreset.Controls.Add(this.listboxPresets);
-            this.TabPagePreset.Location = new System.Drawing.Point(4, 24);
+            resources.ApplyResources(this.TabPagePreset, "TabPagePreset");
             this.TabPagePreset.Name = "TabPagePreset";
-            this.TabPagePreset.Padding = new System.Windows.Forms.Padding(3);
-            this.TabPagePreset.Size = new System.Drawing.Size(724, 361);
-            this.TabPagePreset.TabIndex = 0;
-            this.TabPagePreset.Text = "Preset";
             this.TabPagePreset.UseVisualStyleBackColor = true;
             // 
             // TabPageAdvanced
@@ -510,18 +408,13 @@
             this.TabPageAdvanced.Controls.Add(this.groupBox4);
             this.TabPageAdvanced.Controls.Add(this.checkBoxAddAutomatic);
             this.TabPageAdvanced.Controls.Add(this.linkLabelMESFeatures);
-            this.TabPageAdvanced.Location = new System.Drawing.Point(4, 24);
+            resources.ApplyResources(this.TabPageAdvanced, "TabPageAdvanced");
             this.TabPageAdvanced.Name = "TabPageAdvanced";
-            this.TabPageAdvanced.Padding = new System.Windows.Forms.Padding(3);
-            this.TabPageAdvanced.Size = new System.Drawing.Size(724, 361);
-            this.TabPageAdvanced.TabIndex = 1;
-            this.TabPageAdvanced.Text = "Advanced";
             this.TabPageAdvanced.UseVisualStyleBackColor = true;
             // 
             // groupBox5
             // 
-            this.groupBox5.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            resources.ApplyResources(this.groupBox5, "groupBox5");
             this.groupBox5.Controls.Add(this.comboBoxRotation);
             this.groupBox5.Controls.Add(this.label45);
             this.groupBox5.Controls.Add(this.checkBoxDisableAutoStretchMode);
@@ -530,190 +423,115 @@
             this.groupBox5.Controls.Add(this.checkBoxPreserveResAfterRotation);
             this.groupBox5.Controls.Add(this.radioButtonOnlyLowestBitrate);
             this.groupBox5.Controls.Add(this.radioButtonAllBitrates);
-            this.groupBox5.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold);
-            this.groupBox5.Location = new System.Drawing.Point(30, 115);
             this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Size = new System.Drawing.Size(665, 197);
-            this.groupBox5.TabIndex = 100;
             this.groupBox5.TabStop = false;
-            this.groupBox5.Text = "Video";
             // 
             // comboBoxRotation
             // 
             this.comboBoxRotation.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxRotation.FormattingEnabled = true;
             this.comboBoxRotation.Items.AddRange(new object[] {
-            "Auto",
-            "0",
-            "90",
-            "180",
-            "270"});
-            this.comboBoxRotation.Location = new System.Drawing.Point(109, 153);
+            resources.GetString("comboBoxRotation.Items"),
+            resources.GetString("comboBoxRotation.Items1"),
+            resources.GetString("comboBoxRotation.Items2"),
+            resources.GetString("comboBoxRotation.Items3"),
+            resources.GetString("comboBoxRotation.Items4")});
+            resources.ApplyResources(this.comboBoxRotation, "comboBoxRotation");
             this.comboBoxRotation.Name = "comboBoxRotation";
-            this.comboBoxRotation.Size = new System.Drawing.Size(121, 23);
-            this.comboBoxRotation.TabIndex = 100;
             this.comboBoxRotation.SelectedIndexChanged += new System.EventHandler(this.UpdateJSON);
             // 
             // label45
             // 
-            this.label45.AutoSize = true;
-            this.label45.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.label45.Location = new System.Drawing.Point(15, 156);
+            resources.ApplyResources(this.label45, "label45");
             this.label45.Name = "label45";
-            this.label45.Size = new System.Drawing.Size(88, 15);
-            this.label45.TabIndex = 99;
-            this.label45.Text = "Video rotation :";
             // 
             // checkBoxDisableAutoStretchMode
             // 
-            this.checkBoxDisableAutoStretchMode.AutoSize = true;
-            this.checkBoxDisableAutoStretchMode.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.checkBoxDisableAutoStretchMode.Location = new System.Drawing.Point(18, 78);
+            resources.ApplyResources(this.checkBoxDisableAutoStretchMode, "checkBoxDisableAutoStretchMode");
             this.checkBoxDisableAutoStretchMode.Name = "checkBoxDisableAutoStretchMode";
-            this.checkBoxDisableAutoStretchMode.Size = new System.Drawing.Size(164, 19);
-            this.checkBoxDisableAutoStretchMode.TabIndex = 98;
-            this.checkBoxDisableAutoStretchMode.Text = "Disable auto stretch mode";
             this.checkBoxDisableAutoStretchMode.UseVisualStyleBackColor = true;
             this.checkBoxDisableAutoStretchMode.CheckedChanged += new System.EventHandler(this.UpdateJSON);
             // 
             // checkBoxDisableAutoDeinterlacing
             // 
-            this.checkBoxDisableAutoDeinterlacing.AutoSize = true;
-            this.checkBoxDisableAutoDeinterlacing.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.checkBoxDisableAutoDeinterlacing.Location = new System.Drawing.Point(18, 28);
+            resources.ApplyResources(this.checkBoxDisableAutoDeinterlacing, "checkBoxDisableAutoDeinterlacing");
             this.checkBoxDisableAutoDeinterlacing.Name = "checkBoxDisableAutoDeinterlacing";
-            this.checkBoxDisableAutoDeinterlacing.Size = new System.Drawing.Size(168, 19);
-            this.checkBoxDisableAutoDeinterlacing.TabIndex = 90;
-            this.checkBoxDisableAutoDeinterlacing.Text = "Disable auto de-interlacing";
             this.checkBoxDisableAutoDeinterlacing.UseVisualStyleBackColor = true;
             this.checkBoxDisableAutoDeinterlacing.CheckedChanged += new System.EventHandler(this.UpdateJSON);
             // 
             // checkBoxInsertVideo
             // 
-            this.checkBoxInsertVideo.AutoSize = true;
-            this.checkBoxInsertVideo.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.checkBoxInsertVideo.Location = new System.Drawing.Point(18, 103);
+            resources.ApplyResources(this.checkBoxInsertVideo, "checkBoxInsertVideo");
             this.checkBoxInsertVideo.Name = "checkBoxInsertVideo";
-            this.checkBoxInsertVideo.Size = new System.Drawing.Size(251, 19);
-            this.checkBoxInsertVideo.TabIndex = 93;
-            this.checkBoxInsertVideo.Text = "Insert black video when input has no video";
             this.checkBoxInsertVideo.UseVisualStyleBackColor = true;
             this.checkBoxInsertVideo.CheckedChanged += new System.EventHandler(this.checkBoxInsertVideo_CheckedChanged);
             // 
             // checkBoxPreserveResAfterRotation
             // 
-            this.checkBoxPreserveResAfterRotation.AutoSize = true;
-            this.checkBoxPreserveResAfterRotation.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.checkBoxPreserveResAfterRotation.Location = new System.Drawing.Point(18, 53);
+            resources.ApplyResources(this.checkBoxPreserveResAfterRotation, "checkBoxPreserveResAfterRotation");
             this.checkBoxPreserveResAfterRotation.Name = "checkBoxPreserveResAfterRotation";
-            this.checkBoxPreserveResAfterRotation.Size = new System.Drawing.Size(198, 19);
-            this.checkBoxPreserveResAfterRotation.TabIndex = 91;
-            this.checkBoxPreserveResAfterRotation.Text = "Preserve resolution after rotation";
             this.checkBoxPreserveResAfterRotation.UseVisualStyleBackColor = true;
             this.checkBoxPreserveResAfterRotation.CheckedChanged += new System.EventHandler(this.UpdateJSON);
             // 
             // radioButtonOnlyLowestBitrate
             // 
-            this.radioButtonOnlyLowestBitrate.AutoSize = true;
+            resources.ApplyResources(this.radioButtonOnlyLowestBitrate, "radioButtonOnlyLowestBitrate");
             this.radioButtonOnlyLowestBitrate.Checked = true;
-            this.radioButtonOnlyLowestBitrate.Enabled = false;
-            this.radioButtonOnlyLowestBitrate.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.radioButtonOnlyLowestBitrate.Location = new System.Drawing.Point(275, 102);
             this.radioButtonOnlyLowestBitrate.Name = "radioButtonOnlyLowestBitrate";
-            this.radioButtonOnlyLowestBitrate.Size = new System.Drawing.Size(122, 19);
-            this.radioButtonOnlyLowestBitrate.TabIndex = 96;
             this.radioButtonOnlyLowestBitrate.TabStop = true;
-            this.radioButtonOnlyLowestBitrate.Text = "only lowest bitrate";
             this.radioButtonOnlyLowestBitrate.UseVisualStyleBackColor = true;
             this.radioButtonOnlyLowestBitrate.CheckedChanged += new System.EventHandler(this.UpdateJSON);
             // 
             // radioButtonAllBitrates
             // 
-            this.radioButtonAllBitrates.AutoSize = true;
-            this.radioButtonAllBitrates.Enabled = false;
-            this.radioButtonAllBitrates.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.radioButtonAllBitrates.Location = new System.Drawing.Point(275, 127);
+            resources.ApplyResources(this.radioButtonAllBitrates, "radioButtonAllBitrates");
             this.radioButtonAllBitrates.Name = "radioButtonAllBitrates";
-            this.radioButtonAllBitrates.Size = new System.Drawing.Size(79, 19);
-            this.radioButtonAllBitrates.TabIndex = 97;
-            this.radioButtonAllBitrates.Text = "all bitrates";
             this.radioButtonAllBitrates.UseVisualStyleBackColor = true;
             // 
             // groupBox4
             // 
-            this.groupBox4.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            resources.ApplyResources(this.groupBox4, "groupBox4");
             this.groupBox4.Controls.Add(this.checkBoxInsertSilentAudioTrack);
             this.groupBox4.Controls.Add(this.checkBoxDoNotInterleave);
-            this.groupBox4.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold);
-            this.groupBox4.Location = new System.Drawing.Point(30, 20);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(665, 89);
-            this.groupBox4.TabIndex = 99;
             this.groupBox4.TabStop = false;
-            this.groupBox4.Text = "Audio";
             // 
             // checkBoxInsertSilentAudioTrack
             // 
-            this.checkBoxInsertSilentAudioTrack.AutoSize = true;
-            this.checkBoxInsertSilentAudioTrack.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.checkBoxInsertSilentAudioTrack.Location = new System.Drawing.Point(18, 53);
+            resources.ApplyResources(this.checkBoxInsertSilentAudioTrack, "checkBoxInsertSilentAudioTrack");
             this.checkBoxInsertSilentAudioTrack.Name = "checkBoxInsertSilentAudioTrack";
-            this.checkBoxInsertSilentAudioTrack.Size = new System.Drawing.Size(291, 19);
-            this.checkBoxInsertSilentAudioTrack.TabIndex = 89;
-            this.checkBoxInsertSilentAudioTrack.Text = "Insert a silent audio track when input has no audio";
             this.checkBoxInsertSilentAudioTrack.UseVisualStyleBackColor = true;
             this.checkBoxInsertSilentAudioTrack.CheckedChanged += new System.EventHandler(this.UpdateJSON);
             // 
             // checkBoxDoNotInterleave
             // 
-            this.checkBoxDoNotInterleave.AutoSize = true;
-            this.checkBoxDoNotInterleave.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.checkBoxDoNotInterleave.Location = new System.Drawing.Point(18, 28);
+            resources.ApplyResources(this.checkBoxDoNotInterleave, "checkBoxDoNotInterleave");
             this.checkBoxDoNotInterleave.Name = "checkBoxDoNotInterleave";
-            this.checkBoxDoNotInterleave.Size = new System.Drawing.Size(329, 19);
-            this.checkBoxDoNotInterleave.TabIndex = 98;
-            this.checkBoxDoNotInterleave.Text = "Do not interleave audio and video (audio in separate files)";
             this.checkBoxDoNotInterleave.UseVisualStyleBackColor = true;
             this.checkBoxDoNotInterleave.CheckedChanged += new System.EventHandler(this.UpdateJSON);
             // 
             // checkBoxAddAutomatic
             // 
-            this.checkBoxAddAutomatic.AutoSize = true;
+            resources.ApplyResources(this.checkBoxAddAutomatic, "checkBoxAddAutomatic");
             this.checkBoxAddAutomatic.Checked = true;
             this.checkBoxAddAutomatic.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBoxAddAutomatic.Location = new System.Drawing.Point(30, 318);
             this.checkBoxAddAutomatic.Name = "checkBoxAddAutomatic";
-            this.checkBoxAddAutomatic.Size = new System.Drawing.Size(626, 19);
-            this.checkBoxAddAutomatic.TabIndex = 4;
-            this.checkBoxAddAutomatic.Text = "Automatically update the JSON configuration for advanced features, trimming, crop" +
-    "ping, overlay and thumbnails ";
             this.checkBoxAddAutomatic.UseVisualStyleBackColor = true;
             this.checkBoxAddAutomatic.CheckedChanged += new System.EventHandler(this.checkBoxAddAutomatic_CheckedChanged);
             // 
             // linkLabelMESFeatures
             // 
-            this.linkLabelMESFeatures.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.linkLabelMESFeatures.AutoSize = true;
-            this.linkLabelMESFeatures.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.linkLabelMESFeatures.Location = new System.Drawing.Point(520, 3);
+            resources.ApplyResources(this.linkLabelMESFeatures, "linkLabelMESFeatures");
             this.linkLabelMESFeatures.Name = "linkLabelMESFeatures";
-            this.linkLabelMESFeatures.Size = new System.Drawing.Size(198, 15);
-            this.linkLabelMESFeatures.TabIndex = 92;
             this.linkLabelMESFeatures.TabStop = true;
-            this.linkLabelMESFeatures.Text = "Advanced encoding documentation";
             this.linkLabelMESFeatures.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel_LinkClicked);
             // 
             // tabPageTrimCrop
             // 
             this.tabPageTrimCrop.Controls.Add(this.groupBox3);
             this.tabPageTrimCrop.Controls.Add(this.groupBox1);
-            this.tabPageTrimCrop.Location = new System.Drawing.Point(4, 24);
+            resources.ApplyResources(this.tabPageTrimCrop, "tabPageTrimCrop");
             this.tabPageTrimCrop.Name = "tabPageTrimCrop";
-            this.tabPageTrimCrop.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPageTrimCrop.Size = new System.Drawing.Size(724, 361);
-            this.tabPageTrimCrop.TabIndex = 7;
-            this.tabPageTrimCrop.Text = "Trimming and Cropping";
             this.tabPageTrimCrop.UseVisualStyleBackColor = true;
             // 
             // groupBox3
@@ -721,44 +539,27 @@
             this.groupBox3.Controls.Add(this.linkLabelInfoCropping);
             this.groupBox3.Controls.Add(this.buttonRegionEditor);
             this.groupBox3.Controls.Add(this.checkBoxCropVideo);
-            this.groupBox3.Location = new System.Drawing.Point(17, 260);
+            resources.ApplyResources(this.groupBox3, "groupBox3");
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(691, 76);
-            this.groupBox3.TabIndex = 110;
             this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "Video Cropping";
             // 
             // linkLabelInfoCropping
             // 
-            this.linkLabelInfoCropping.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.linkLabelInfoCropping.AutoSize = true;
-            this.linkLabelInfoCropping.Location = new System.Drawing.Point(516, 35);
+            resources.ApplyResources(this.linkLabelInfoCropping, "linkLabelInfoCropping");
             this.linkLabelInfoCropping.Name = "linkLabelInfoCropping";
-            this.linkLabelInfoCropping.Size = new System.Drawing.Size(169, 15);
-            this.linkLabelInfoCropping.TabIndex = 117;
             this.linkLabelInfoCropping.TabStop = true;
-            this.linkLabelInfoCropping.Text = "More information on cropping";
             this.linkLabelInfoCropping.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel_LinkClicked);
             // 
             // buttonRegionEditor
             // 
-            this.buttonRegionEditor.Enabled = false;
-            this.buttonRegionEditor.Location = new System.Drawing.Point(103, 31);
+            resources.ApplyResources(this.buttonRegionEditor, "buttonRegionEditor");
             this.buttonRegionEditor.Name = "buttonRegionEditor";
-            this.buttonRegionEditor.Size = new System.Drawing.Size(203, 23);
-            this.buttonRegionEditor.TabIndex = 106;
-            this.buttonRegionEditor.Text = "Define Cropping Rectangle...";
             this.buttonRegionEditor.UseVisualStyleBackColor = true;
             // 
             // checkBoxCropVideo
             // 
-            this.checkBoxCropVideo.AutoSize = true;
-            this.checkBoxCropVideo.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.checkBoxCropVideo.Location = new System.Drawing.Point(12, 34);
+            resources.ApplyResources(this.checkBoxCropVideo, "checkBoxCropVideo");
             this.checkBoxCropVideo.Name = "checkBoxCropVideo";
-            this.checkBoxCropVideo.Size = new System.Drawing.Size(84, 19);
-            this.checkBoxCropVideo.TabIndex = 108;
-            this.checkBoxCropVideo.Text = "Crop video";
             this.checkBoxCropVideo.UseVisualStyleBackColor = true;
             this.checkBoxCropVideo.CheckedChanged += new System.EventHandler(this.checkBoxCropVideo_CheckedChanged);
             // 
@@ -776,214 +577,139 @@
             this.groupBox1.Controls.Add(this.textBoxSourceDurationTime);
             this.groupBox1.Controls.Add(this.checkBoxSourceTrimmingStart);
             this.groupBox1.Controls.Add(this.labelInfoSeveralAssetStitching);
-            this.groupBox1.Location = new System.Drawing.Point(17, 17);
+            resources.ApplyResources(this.groupBox1, "groupBox1");
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(691, 225);
-            this.groupBox1.TabIndex = 94;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Source Trimming and Stitching";
             // 
             // labelInputAsset
             // 
-            this.labelInputAsset.AutoSize = true;
-            this.labelInputAsset.Location = new System.Drawing.Point(9, 26);
+            resources.ApplyResources(this.labelInputAsset, "labelInputAsset");
             this.labelInputAsset.Name = "labelInputAsset";
-            this.labelInputAsset.Size = new System.Drawing.Size(70, 15);
-            this.labelInputAsset.TabIndex = 138;
-            this.labelInputAsset.Text = "Input asset :";
-            this.labelInputAsset.Visible = false;
             // 
             // comboBoxSourceAsset
             // 
-            this.comboBoxSourceAsset.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            resources.ApplyResources(this.comboBoxSourceAsset, "comboBoxSourceAsset");
             this.comboBoxSourceAsset.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxSourceAsset.FormattingEnabled = true;
-            this.comboBoxSourceAsset.Location = new System.Drawing.Point(85, 23);
             this.comboBoxSourceAsset.Name = "comboBoxSourceAsset";
-            this.comboBoxSourceAsset.Size = new System.Drawing.Size(582, 23);
-            this.comboBoxSourceAsset.TabIndex = 137;
-            this.comboBoxSourceAsset.Visible = false;
             this.comboBoxSourceAsset.SelectedIndexChanged += new System.EventHandler(this.UpdateJSON);
             // 
             // panelEDL
             // 
-            this.panelEDL.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            resources.ApplyResources(this.panelEDL, "panelEDL");
             this.panelEDL.Controls.Add(this.buttonAddEDLEntry);
             this.panelEDL.Controls.Add(this.buttonShowEDL);
             this.panelEDL.Controls.Add(this.checkBoxUseEDL);
-            this.panelEDL.Location = new System.Drawing.Point(9, 170);
             this.panelEDL.Name = "panelEDL";
-            this.panelEDL.Size = new System.Drawing.Size(658, 34);
-            this.panelEDL.TabIndex = 136;
             // 
             // buttonAddEDLEntry
             // 
-            this.buttonAddEDLEntry.Enabled = false;
-            this.buttonAddEDLEntry.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonAddEDLEntry.Location = new System.Drawing.Point(303, 3);
+            resources.ApplyResources(this.buttonAddEDLEntry, "buttonAddEDLEntry");
             this.buttonAddEDLEntry.Name = "buttonAddEDLEntry";
-            this.buttonAddEDLEntry.Size = new System.Drawing.Size(196, 27);
-            this.buttonAddEDLEntry.TabIndex = 137;
-            this.buttonAddEDLEntry.Text = "Add Start/End times to EDL";
             this.buttonAddEDLEntry.UseVisualStyleBackColor = true;
             this.buttonAddEDLEntry.Click += new System.EventHandler(this.buttonAddEDLEntry_Click);
             // 
             // buttonShowEDL
             // 
-            this.buttonShowEDL.Enabled = false;
-            this.buttonShowEDL.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.buttonShowEDL.Location = new System.Drawing.Point(194, 3);
+            resources.ApplyResources(this.buttonShowEDL, "buttonShowEDL");
             this.buttonShowEDL.Name = "buttonShowEDL";
             this.buttonShowEDL.Offset = System.TimeSpan.Parse("00:00:00");
-            this.buttonShowEDL.Size = new System.Drawing.Size(103, 27);
-            this.buttonShowEDL.TabIndex = 138;
-            this.buttonShowEDL.Text = "Show EDL...";
             this.buttonShowEDL.UseVisualStyleBackColor = true;
             this.buttonShowEDL.Click += new System.EventHandler(this.buttonShowEDL_Click);
             // 
             // checkBoxUseEDL
             // 
-            this.checkBoxUseEDL.AutoSize = true;
-            this.checkBoxUseEDL.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.checkBoxUseEDL.Location = new System.Drawing.Point(3, 8);
+            resources.ApplyResources(this.checkBoxUseEDL, "checkBoxUseEDL");
             this.checkBoxUseEDL.Name = "checkBoxUseEDL";
-            this.checkBoxUseEDL.Size = new System.Drawing.Size(185, 19);
-            this.checkBoxUseEDL.TabIndex = 139;
-            this.checkBoxUseEDL.Text = "Use Editing Decision List (EDL)";
             this.checkBoxUseEDL.UseVisualStyleBackColor = true;
             this.checkBoxUseEDL.CheckedChanged += new System.EventHandler(this.checkBoxUseEDL_CheckedChanged);
             // 
             // labelOffset
             // 
-            this.labelOffset.AutoSize = true;
-            this.labelOffset.Location = new System.Drawing.Point(506, 59);
+            resources.ApplyResources(this.labelOffset, "labelOffset");
             this.labelOffset.Name = "labelOffset";
-            this.labelOffset.Size = new System.Drawing.Size(45, 15);
-            this.labelOffset.TabIndex = 94;
-            this.labelOffset.Text = "Offset :";
-            this.labelOffset.Visible = false;
             // 
             // textBoxOffset
             // 
-            this.textBoxOffset.Location = new System.Drawing.Point(509, 77);
+            resources.ApplyResources(this.textBoxOffset, "textBoxOffset");
             this.textBoxOffset.Name = "textBoxOffset";
             this.textBoxOffset.ReadOnly = true;
-            this.textBoxOffset.Size = new System.Drawing.Size(158, 23);
-            this.textBoxOffset.TabIndex = 95;
-            this.textBoxOffset.Visible = false;
             // 
             // timeControlEndTime
             // 
             this.timeControlEndTime.BackColor = System.Drawing.SystemColors.Window;
             this.timeControlEndTime.DisplayTrackBar = false;
-            this.timeControlEndTime.Enabled = false;
-            this.timeControlEndTime.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            resources.ApplyResources(this.timeControlEndTime, "timeControlEndTime");
             this.timeControlEndTime.Label1 = "";
             this.timeControlEndTime.Label2 = "End time";
-            this.timeControlEndTime.Location = new System.Drawing.Point(33, 110);
             this.timeControlEndTime.Max = System.TimeSpan.Parse("10675199.02:48:05.4775807");
             this.timeControlEndTime.Min = System.TimeSpan.Parse("00:00:00");
             this.timeControlEndTime.Name = "timeControlEndTime";
             this.timeControlEndTime.ScaledFirstTimestampOffset = ((ulong)(0ul));
-            this.timeControlEndTime.Size = new System.Drawing.Size(441, 58);
-            this.timeControlEndTime.TabIndex = 7;
             this.timeControlEndTime.TimeScale = null;
             this.timeControlEndTime.TotalDuration = System.TimeSpan.Parse("1.00:00:00");
             this.timeControlEndTime.ValueChanged += new System.EventHandler(this.timeControlDuration_ValueChanged);
             // 
             // checkBoxSourceTrimmingEnd
             // 
-            this.checkBoxSourceTrimmingEnd.AutoSize = true;
-            this.checkBoxSourceTrimmingEnd.Location = new System.Drawing.Point(12, 132);
+            resources.ApplyResources(this.checkBoxSourceTrimmingEnd, "checkBoxSourceTrimmingEnd");
             this.checkBoxSourceTrimmingEnd.Name = "checkBoxSourceTrimmingEnd";
-            this.checkBoxSourceTrimmingEnd.Size = new System.Drawing.Size(15, 14);
-            this.checkBoxSourceTrimmingEnd.TabIndex = 93;
             this.checkBoxSourceTrimmingEnd.UseVisualStyleBackColor = true;
             this.checkBoxSourceTrimmingEnd.CheckedChanged += new System.EventHandler(this.checkBoxSourceTrimmingEnd_CheckedChanged);
             // 
             // label7
             // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(506, 110);
+            resources.ApplyResources(this.label7, "label7");
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(59, 15);
-            this.label7.TabIndex = 82;
-            this.label7.Text = "Duration :";
             // 
             // timeControlStartTime
             // 
             this.timeControlStartTime.BackColor = System.Drawing.SystemColors.Window;
             this.timeControlStartTime.DisplayTrackBar = false;
-            this.timeControlStartTime.Enabled = false;
-            this.timeControlStartTime.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            resources.ApplyResources(this.timeControlStartTime, "timeControlStartTime");
             this.timeControlStartTime.Label1 = "";
             this.timeControlStartTime.Label2 = "Start time";
-            this.timeControlStartTime.Location = new System.Drawing.Point(33, 56);
             this.timeControlStartTime.Max = System.TimeSpan.Parse("10675199.02:48:05.4775807");
             this.timeControlStartTime.Min = System.TimeSpan.Parse("00:00:00");
             this.timeControlStartTime.Name = "timeControlStartTime";
             this.timeControlStartTime.ScaledFirstTimestampOffset = ((ulong)(0ul));
-            this.timeControlStartTime.Size = new System.Drawing.Size(441, 58);
-            this.timeControlStartTime.TabIndex = 6;
             this.timeControlStartTime.TimeScale = null;
             this.timeControlStartTime.TotalDuration = System.TimeSpan.Parse("1.00:00:00");
             this.timeControlStartTime.ValueChanged += new System.EventHandler(this.timeControlStartTime_ValueChanged);
             // 
             // textBoxSourceDurationTime
             // 
-            this.textBoxSourceDurationTime.Enabled = false;
-            this.textBoxSourceDurationTime.Location = new System.Drawing.Point(509, 128);
+            resources.ApplyResources(this.textBoxSourceDurationTime, "textBoxSourceDurationTime");
             this.textBoxSourceDurationTime.Name = "textBoxSourceDurationTime";
             this.textBoxSourceDurationTime.ReadOnly = true;
-            this.textBoxSourceDurationTime.Size = new System.Drawing.Size(158, 23);
-            this.textBoxSourceDurationTime.TabIndex = 88;
             // 
             // checkBoxSourceTrimmingStart
             // 
-            this.checkBoxSourceTrimmingStart.AutoSize = true;
-            this.checkBoxSourceTrimmingStart.Location = new System.Drawing.Point(12, 77);
+            resources.ApplyResources(this.checkBoxSourceTrimmingStart, "checkBoxSourceTrimmingStart");
             this.checkBoxSourceTrimmingStart.Name = "checkBoxSourceTrimmingStart";
-            this.checkBoxSourceTrimmingStart.Size = new System.Drawing.Size(15, 14);
-            this.checkBoxSourceTrimmingStart.TabIndex = 5;
             this.checkBoxSourceTrimmingStart.UseVisualStyleBackColor = true;
             this.checkBoxSourceTrimmingStart.CheckedChanged += new System.EventHandler(this.checkBoxSourceTrimming_CheckedChanged);
             // 
             // labelInfoSeveralAssetStitching
             // 
-            this.labelInfoSeveralAssetStitching.AutoSize = true;
+            resources.ApplyResources(this.labelInfoSeveralAssetStitching, "labelInfoSeveralAssetStitching");
             this.labelInfoSeveralAssetStitching.ForeColor = System.Drawing.SystemColors.WindowFrame;
-            this.labelInfoSeveralAssetStitching.Location = new System.Drawing.Point(9, 26);
             this.labelInfoSeveralAssetStitching.Name = "labelInfoSeveralAssetStitching";
-            this.labelInfoSeveralAssetStitching.Size = new System.Drawing.Size(484, 15);
-            this.labelInfoSeveralAssetStitching.TabIndex = 139;
-            this.labelInfoSeveralAssetStitching.Text = "Select several assets before calling the encoder if you want to stitch several as" +
-    "sets together.";
-            this.labelInfoSeveralAssetStitching.Visible = false;
             // 
             // tabPageOverlay
             // 
             this.tabPageOverlay.Controls.Add(this.linkLabelInfoOverlay);
             this.tabPageOverlay.Controls.Add(this.panelOverlay);
             this.tabPageOverlay.Controls.Add(this.checkBoxOverlay);
-            this.tabPageOverlay.Location = new System.Drawing.Point(4, 24);
+            resources.ApplyResources(this.tabPageOverlay, "tabPageOverlay");
             this.tabPageOverlay.Name = "tabPageOverlay";
-            this.tabPageOverlay.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPageOverlay.Size = new System.Drawing.Size(724, 361);
-            this.tabPageOverlay.TabIndex = 6;
-            this.tabPageOverlay.Text = "Visual Overlay";
             this.tabPageOverlay.UseVisualStyleBackColor = true;
             // 
             // linkLabelInfoOverlay
             // 
-            this.linkLabelInfoOverlay.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.linkLabelInfoOverlay.AutoSize = true;
-            this.linkLabelInfoOverlay.Location = new System.Drawing.Point(559, 17);
+            resources.ApplyResources(this.linkLabelInfoOverlay, "linkLabelInfoOverlay");
             this.linkLabelInfoOverlay.Name = "linkLabelInfoOverlay";
-            this.linkLabelInfoOverlay.Size = new System.Drawing.Size(159, 15);
-            this.linkLabelInfoOverlay.TabIndex = 116;
             this.linkLabelInfoOverlay.TabStop = true;
-            this.linkLabelInfoOverlay.Text = "More information on overlay";
             this.linkLabelInfoOverlay.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel_LinkClicked);
             // 
             // panelOverlay
@@ -999,11 +725,8 @@
             this.panelOverlay.Controls.Add(this.checkBoxOverlayLoop);
             this.panelOverlay.Controls.Add(this.textBoxOverlayDuration);
             this.panelOverlay.Controls.Add(this.label49);
-            this.panelOverlay.Enabled = false;
-            this.panelOverlay.Location = new System.Drawing.Point(16, 35);
+            resources.ApplyResources(this.panelOverlay, "panelOverlay");
             this.panelOverlay.Name = "panelOverlay";
-            this.panelOverlay.Size = new System.Drawing.Size(712, 323);
-            this.panelOverlay.TabIndex = 115;
             // 
             // groupBox2
             // 
@@ -1018,48 +741,31 @@
             this.groupBox2.Controls.Add(this.numericUpDownVOverlayRectH);
             this.groupBox2.Controls.Add(this.numericUpDownVOverlayRectW);
             this.groupBox2.Controls.Add(this.checkBoxOverlayResize);
-            this.groupBox2.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox2.Location = new System.Drawing.Point(16, 48);
+            resources.ApplyResources(this.groupBox2, "groupBox2");
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(661, 84);
-            this.groupBox2.TabIndex = 104;
             this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Overlay position";
             // 
             // label37
             // 
-            this.label37.AutoSize = true;
-            this.label37.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            resources.ApplyResources(this.label37, "label37");
             this.label37.ForeColor = System.Drawing.SystemColors.WindowFrame;
-            this.label37.Location = new System.Drawing.Point(198, 49);
             this.label37.Name = "label37";
-            this.label37.Size = new System.Drawing.Size(33, 13);
-            this.label37.TabIndex = 106;
-            this.label37.Text = "pixels";
             // 
             // label35
             // 
-            this.label35.AutoSize = true;
-            this.label35.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            resources.ApplyResources(this.label35, "label35");
             this.label35.ForeColor = System.Drawing.SystemColors.WindowFrame;
-            this.label35.Location = new System.Drawing.Point(537, 46);
             this.label35.Name = "label35";
-            this.label35.Size = new System.Drawing.Size(33, 13);
-            this.label35.TabIndex = 105;
-            this.label35.Text = "pixels";
             // 
             // numericUpDownVOverlayRectY
             // 
-            this.numericUpDownVOverlayRectY.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.numericUpDownVOverlayRectY.Location = new System.Drawing.Point(112, 43);
+            resources.ApplyResources(this.numericUpDownVOverlayRectY, "numericUpDownVOverlayRectY");
             this.numericUpDownVOverlayRectY.Maximum = new decimal(new int[] {
             10000,
             0,
             0,
             0});
             this.numericUpDownVOverlayRectY.Name = "numericUpDownVOverlayRectY";
-            this.numericUpDownVOverlayRectY.Size = new System.Drawing.Size(80, 23);
-            this.numericUpDownVOverlayRectY.TabIndex = 46;
             this.numericUpDownVOverlayRectY.Value = new decimal(new int[] {
             10,
             0,
@@ -1069,26 +775,18 @@
             // 
             // label43
             // 
-            this.label43.AutoSize = true;
-            this.label43.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.label43.Location = new System.Drawing.Point(109, 25);
+            resources.ApplyResources(this.label43, "label43");
             this.label43.Name = "label43";
-            this.label43.Size = new System.Drawing.Size(20, 15);
-            this.label43.TabIndex = 45;
-            this.label43.Text = "Y :";
             // 
             // numericUpDownVOverlayRectX
             // 
-            this.numericUpDownVOverlayRectX.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.numericUpDownVOverlayRectX.Location = new System.Drawing.Point(13, 43);
+            resources.ApplyResources(this.numericUpDownVOverlayRectX, "numericUpDownVOverlayRectX");
             this.numericUpDownVOverlayRectX.Maximum = new decimal(new int[] {
             10000,
             0,
             0,
             0});
             this.numericUpDownVOverlayRectX.Name = "numericUpDownVOverlayRectX";
-            this.numericUpDownVOverlayRectX.Size = new System.Drawing.Size(80, 23);
-            this.numericUpDownVOverlayRectX.TabIndex = 44;
             this.numericUpDownVOverlayRectX.Value = new decimal(new int[] {
             10,
             0,
@@ -1098,48 +796,29 @@
             // 
             // label44
             // 
-            this.label44.AutoSize = true;
-            this.label44.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.label44.Location = new System.Drawing.Point(10, 25);
+            resources.ApplyResources(this.label44, "label44");
             this.label44.Name = "label44";
-            this.label44.Size = new System.Drawing.Size(20, 15);
-            this.label44.TabIndex = 43;
-            this.label44.Text = "X :";
             // 
             // label40
             // 
-            this.label40.AutoSize = true;
-            this.label40.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.label40.Location = new System.Drawing.Point(349, 25);
+            resources.ApplyResources(this.label40, "label40");
             this.label40.Name = "label40";
-            this.label40.Size = new System.Drawing.Size(45, 15);
-            this.label40.TabIndex = 67;
-            this.label40.Text = "Width :";
             // 
             // label41
             // 
-            this.label41.AutoSize = true;
-            this.label41.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.label41.Location = new System.Drawing.Point(448, 25);
+            resources.ApplyResources(this.label41, "label41");
             this.label41.Name = "label41";
-            this.label41.Size = new System.Drawing.Size(49, 15);
-            this.label41.TabIndex = 49;
-            this.label41.Text = "Height :";
             this.label41.Click += new System.EventHandler(this.label41_Click);
             // 
             // numericUpDownVOverlayRectH
             // 
-            this.numericUpDownVOverlayRectH.Enabled = false;
-            this.numericUpDownVOverlayRectH.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.numericUpDownVOverlayRectH.Location = new System.Drawing.Point(451, 42);
+            resources.ApplyResources(this.numericUpDownVOverlayRectH, "numericUpDownVOverlayRectH");
             this.numericUpDownVOverlayRectH.Maximum = new decimal(new int[] {
             10000,
             0,
             0,
             0});
             this.numericUpDownVOverlayRectH.Name = "numericUpDownVOverlayRectH";
-            this.numericUpDownVOverlayRectH.Size = new System.Drawing.Size(80, 23);
-            this.numericUpDownVOverlayRectH.TabIndex = 50;
             this.numericUpDownVOverlayRectH.Value = new decimal(new int[] {
             100,
             0,
@@ -1149,17 +828,13 @@
             // 
             // numericUpDownVOverlayRectW
             // 
-            this.numericUpDownVOverlayRectW.Enabled = false;
-            this.numericUpDownVOverlayRectW.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.numericUpDownVOverlayRectW.Location = new System.Drawing.Point(352, 42);
+            resources.ApplyResources(this.numericUpDownVOverlayRectW, "numericUpDownVOverlayRectW");
             this.numericUpDownVOverlayRectW.Maximum = new decimal(new int[] {
             10000,
             0,
             0,
             0});
             this.numericUpDownVOverlayRectW.Name = "numericUpDownVOverlayRectW";
-            this.numericUpDownVOverlayRectW.Size = new System.Drawing.Size(80, 23);
-            this.numericUpDownVOverlayRectW.TabIndex = 48;
             this.numericUpDownVOverlayRectW.Value = new decimal(new int[] {
             100,
             0,
@@ -1169,56 +844,37 @@
             // 
             // checkBoxOverlayResize
             // 
-            this.checkBoxOverlayResize.AutoSize = true;
-            this.checkBoxOverlayResize.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.checkBoxOverlayResize.Location = new System.Drawing.Point(274, 43);
+            resources.ApplyResources(this.checkBoxOverlayResize, "checkBoxOverlayResize");
             this.checkBoxOverlayResize.Name = "checkBoxOverlayResize";
-            this.checkBoxOverlayResize.Size = new System.Drawing.Size(72, 19);
-            this.checkBoxOverlayResize.TabIndex = 65;
-            this.checkBoxOverlayResize.Text = "Resize to";
             this.checkBoxOverlayResize.UseVisualStyleBackColor = true;
             this.checkBoxOverlayResize.CheckedChanged += new System.EventHandler(this.checkBoxOverlayResize_CheckedChanged);
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(16, 9);
+            resources.ApplyResources(this.button1, "button1");
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(169, 23);
-            this.button1.TabIndex = 68;
-            this.button1.Text = "Select image to overlay...";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label42
             // 
-            this.label42.AutoSize = true;
+            resources.ApplyResources(this.label42, "label42");
             this.label42.ForeColor = System.Drawing.SystemColors.WindowFrame;
-            this.label42.Location = new System.Drawing.Point(433, 5);
             this.label42.Name = "label42";
-            this.label42.Size = new System.Drawing.Size(246, 45);
-            this.label42.TabIndex = 103;
-            this.label42.Text = "Alpha channel is supported (but not opacity).\r\nSource video and overlay files hav" +
-    "e to be in\r\nthe same asset.\r\n";
             // 
             // textBoxOverlayFileName
             // 
-            this.textBoxOverlayFileName.Location = new System.Drawing.Point(205, 9);
+            resources.ApplyResources(this.textBoxOverlayFileName, "textBoxOverlayFileName");
             this.textBoxOverlayFileName.Name = "textBoxOverlayFileName";
             this.textBoxOverlayFileName.ReadOnly = true;
-            this.textBoxOverlayFileName.Size = new System.Drawing.Size(192, 23);
-            this.textBoxOverlayFileName.TabIndex = 69;
             // 
             // groupBoxFade
             // 
             this.groupBoxFade.Controls.Add(this.panelFade);
             this.groupBoxFade.Controls.Add(this.checkBoxOverlayFade);
-            this.groupBoxFade.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBoxFade.Location = new System.Drawing.Point(16, 141);
+            resources.ApplyResources(this.groupBoxFade, "groupBoxFade");
             this.groupBoxFade.Name = "groupBoxFade";
-            this.groupBoxFade.Size = new System.Drawing.Size(661, 115);
-            this.groupBoxFade.TabIndex = 66;
             this.groupBoxFade.TabStop = false;
-            this.groupBoxFade.Text = "Fade In/Out";
             // 
             // panelFade
             // 
@@ -1232,156 +888,91 @@
             this.panelFade.Controls.Add(this.textBoxVOverlayFadeInDuration);
             this.panelFade.Controls.Add(this.label46);
             this.panelFade.Controls.Add(this.label50);
-            this.panelFade.Enabled = false;
-            this.panelFade.Location = new System.Drawing.Point(80, 11);
+            resources.ApplyResources(this.panelFade, "panelFade");
             this.panelFade.Name = "panelFade";
-            this.panelFade.Size = new System.Drawing.Size(384, 100);
-            this.panelFade.TabIndex = 67;
             // 
             // textBoxVOverlayFadeInStartTime
             // 
-            this.textBoxVOverlayFadeInStartTime.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.textBoxVOverlayFadeInStartTime.Location = new System.Drawing.Point(88, 20);
+            resources.ApplyResources(this.textBoxVOverlayFadeInStartTime, "textBoxVOverlayFadeInStartTime");
             this.textBoxVOverlayFadeInStartTime.Name = "textBoxVOverlayFadeInStartTime";
-            this.textBoxVOverlayFadeInStartTime.Size = new System.Drawing.Size(116, 23);
-            this.textBoxVOverlayFadeInStartTime.TabIndex = 40;
-            this.textBoxVOverlayFadeInStartTime.Text = "00:00:03";
             this.textBoxVOverlayFadeInStartTime.TextChanged += new System.EventHandler(this.ThumbnailSettingsChanged);
             // 
             // label54
             // 
-            this.label54.AutoSize = true;
-            this.label54.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.label54.Location = new System.Drawing.Point(242, 54);
+            resources.ApplyResources(this.label54, "label54");
             this.label54.Name = "label54";
-            this.label54.Size = new System.Drawing.Size(59, 15);
-            this.label54.TabIndex = 35;
-            this.label54.Text = "Duration :";
             // 
             // label25
             // 
-            this.label25.AutoSize = true;
-            this.label25.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.label25.Location = new System.Drawing.Point(5, 75);
+            resources.ApplyResources(this.label25, "label25");
             this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(61, 15);
-            this.label25.TabIndex = 66;
-            this.label25.Text = "Fade Out :";
             // 
             // label48
             // 
-            this.label48.AutoSize = true;
-            this.label48.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.label48.Location = new System.Drawing.Point(242, 2);
+            resources.ApplyResources(this.label48, "label48");
             this.label48.Name = "label48";
-            this.label48.Size = new System.Drawing.Size(59, 15);
-            this.label48.TabIndex = 35;
-            this.label48.Text = "Duration :";
             // 
             // textBoxVOverlayFadeOutStartTime
             // 
-            this.textBoxVOverlayFadeOutStartTime.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.textBoxVOverlayFadeOutStartTime.Location = new System.Drawing.Point(88, 72);
+            resources.ApplyResources(this.textBoxVOverlayFadeOutStartTime, "textBoxVOverlayFadeOutStartTime");
             this.textBoxVOverlayFadeOutStartTime.Name = "textBoxVOverlayFadeOutStartTime";
-            this.textBoxVOverlayFadeOutStartTime.Size = new System.Drawing.Size(116, 23);
-            this.textBoxVOverlayFadeOutStartTime.TabIndex = 42;
-            this.textBoxVOverlayFadeOutStartTime.Text = "00:00:10";
             this.textBoxVOverlayFadeOutStartTime.TextChanged += new System.EventHandler(this.ThumbnailSettingsChanged);
             // 
             // textBoxVOverlayFadeOutDuration
             // 
-            this.textBoxVOverlayFadeOutDuration.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.textBoxVOverlayFadeOutDuration.Location = new System.Drawing.Point(245, 72);
+            resources.ApplyResources(this.textBoxVOverlayFadeOutDuration, "textBoxVOverlayFadeOutDuration");
             this.textBoxVOverlayFadeOutDuration.Name = "textBoxVOverlayFadeOutDuration";
-            this.textBoxVOverlayFadeOutDuration.Size = new System.Drawing.Size(116, 23);
-            this.textBoxVOverlayFadeOutDuration.TabIndex = 38;
-            this.textBoxVOverlayFadeOutDuration.Text = "00:00:02";
             this.textBoxVOverlayFadeOutDuration.TextChanged += new System.EventHandler(this.ThumbnailSettingsChanged);
             // 
             // label23
             // 
-            this.label23.AutoSize = true;
-            this.label23.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.label23.Location = new System.Drawing.Point(5, 23);
+            resources.ApplyResources(this.label23, "label23");
             this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(51, 15);
-            this.label23.TabIndex = 65;
-            this.label23.Text = "Fade In :";
             // 
             // textBoxVOverlayFadeInDuration
             // 
-            this.textBoxVOverlayFadeInDuration.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.textBoxVOverlayFadeInDuration.Location = new System.Drawing.Point(245, 20);
+            resources.ApplyResources(this.textBoxVOverlayFadeInDuration, "textBoxVOverlayFadeInDuration");
             this.textBoxVOverlayFadeInDuration.Name = "textBoxVOverlayFadeInDuration";
-            this.textBoxVOverlayFadeInDuration.Size = new System.Drawing.Size(116, 23);
-            this.textBoxVOverlayFadeInDuration.TabIndex = 36;
-            this.textBoxVOverlayFadeInDuration.Text = "00:00:02";
             this.textBoxVOverlayFadeInDuration.TextChanged += new System.EventHandler(this.ThumbnailSettingsChanged);
             // 
             // label46
             // 
-            this.label46.AutoSize = true;
-            this.label46.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.label46.Location = new System.Drawing.Point(85, 2);
+            resources.ApplyResources(this.label46, "label46");
             this.label46.Name = "label46";
-            this.label46.Size = new System.Drawing.Size(64, 15);
-            this.label46.TabIndex = 39;
-            this.label46.Text = "Start time :";
             // 
             // label50
             // 
-            this.label50.AutoSize = true;
-            this.label50.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.label50.Location = new System.Drawing.Point(85, 54);
+            resources.ApplyResources(this.label50, "label50");
             this.label50.Name = "label50";
-            this.label50.Size = new System.Drawing.Size(64, 15);
-            this.label50.TabIndex = 39;
-            this.label50.Text = "Start time :";
             // 
             // checkBoxOverlayFade
             // 
-            this.checkBoxOverlayFade.AutoSize = true;
-            this.checkBoxOverlayFade.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.checkBoxOverlayFade.Location = new System.Drawing.Point(13, 51);
+            resources.ApplyResources(this.checkBoxOverlayFade, "checkBoxOverlayFade");
             this.checkBoxOverlayFade.Name = "checkBoxOverlayFade";
-            this.checkBoxOverlayFade.Size = new System.Drawing.Size(61, 19);
-            this.checkBoxOverlayFade.TabIndex = 64;
-            this.checkBoxOverlayFade.Text = "Enable";
             this.checkBoxOverlayFade.UseVisualStyleBackColor = true;
             this.checkBoxOverlayFade.CheckedChanged += new System.EventHandler(this.checkBoxOverlayFade_CheckedChanged);
             // 
             // label51
             // 
-            this.label51.AutoSize = true;
-            this.label51.Location = new System.Drawing.Point(249, 295);
+            resources.ApplyResources(this.label51, "label51");
             this.label51.Name = "label51";
-            this.label51.Size = new System.Drawing.Size(36, 15);
-            this.label51.TabIndex = 63;
-            this.label51.Text = "times";
             // 
             // checkBoxOverlayDuration
             // 
-            this.checkBoxOverlayDuration.AutoSize = true;
-            this.checkBoxOverlayDuration.Location = new System.Drawing.Point(16, 264);
+            resources.ApplyResources(this.checkBoxOverlayDuration, "checkBoxOverlayDuration");
             this.checkBoxOverlayDuration.Name = "checkBoxOverlayDuration";
-            this.checkBoxOverlayDuration.Size = new System.Drawing.Size(115, 19);
-            this.checkBoxOverlayDuration.TabIndex = 58;
-            this.checkBoxOverlayDuration.Text = "Limit duration to";
             this.checkBoxOverlayDuration.UseVisualStyleBackColor = true;
             this.checkBoxOverlayDuration.CheckedChanged += new System.EventHandler(this.checkBoxOverlayDuration_CheckedChanged);
             // 
             // numericUpDownOverlayLoop
             // 
-            this.numericUpDownOverlayLoop.Enabled = false;
-            this.numericUpDownOverlayLoop.Location = new System.Drawing.Point(163, 293);
+            resources.ApplyResources(this.numericUpDownOverlayLoop, "numericUpDownOverlayLoop");
             this.numericUpDownOverlayLoop.Maximum = new decimal(new int[] {
             10000,
             0,
             0,
             0});
             this.numericUpDownOverlayLoop.Name = "numericUpDownOverlayLoop";
-            this.numericUpDownOverlayLoop.Size = new System.Drawing.Size(80, 23);
-            this.numericUpDownOverlayLoop.TabIndex = 62;
             this.numericUpDownOverlayLoop.Value = new decimal(new int[] {
             10,
             0,
@@ -1391,44 +982,27 @@
             // 
             // checkBoxOverlayLoop
             // 
-            this.checkBoxOverlayLoop.AutoSize = true;
-            this.checkBoxOverlayLoop.Location = new System.Drawing.Point(16, 294);
+            resources.ApplyResources(this.checkBoxOverlayLoop, "checkBoxOverlayLoop");
             this.checkBoxOverlayLoop.Name = "checkBoxOverlayLoop";
-            this.checkBoxOverlayLoop.Size = new System.Drawing.Size(139, 19);
-            this.checkBoxOverlayLoop.TabIndex = 61;
-            this.checkBoxOverlayLoop.Text = "Loop the overlay (gif)";
             this.checkBoxOverlayLoop.UseVisualStyleBackColor = true;
             this.checkBoxOverlayLoop.CheckedChanged += new System.EventHandler(this.checkBoxOverlayLoop_CheckedChanged);
             // 
             // textBoxOverlayDuration
             // 
-            this.textBoxOverlayDuration.Enabled = false;
-            this.textBoxOverlayDuration.Location = new System.Drawing.Point(163, 262);
+            resources.ApplyResources(this.textBoxOverlayDuration, "textBoxOverlayDuration");
             this.textBoxOverlayDuration.Name = "textBoxOverlayDuration";
-            this.textBoxOverlayDuration.Size = new System.Drawing.Size(116, 23);
-            this.textBoxOverlayDuration.TabIndex = 59;
-            this.textBoxOverlayDuration.Text = "00:00:10";
             this.textBoxOverlayDuration.TextChanged += new System.EventHandler(this.ThumbnailSettingsChanged);
             // 
             // label49
             // 
-            this.label49.AutoSize = true;
-            this.label49.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            resources.ApplyResources(this.label49, "label49");
             this.label49.ForeColor = System.Drawing.SystemColors.WindowFrame;
-            this.label49.Location = new System.Drawing.Point(287, 266);
             this.label49.Name = "label49";
-            this.label49.Size = new System.Drawing.Size(63, 13);
-            this.label49.TabIndex = 60;
-            this.label49.Text = "hh:mm:ss:fff";
             // 
             // checkBoxOverlay
             // 
-            this.checkBoxOverlay.AutoSize = true;
-            this.checkBoxOverlay.Location = new System.Drawing.Point(15, 18);
+            resources.ApplyResources(this.checkBoxOverlay, "checkBoxOverlay");
             this.checkBoxOverlay.Name = "checkBoxOverlay";
-            this.checkBoxOverlay.Size = new System.Drawing.Size(198, 19);
-            this.checkBoxOverlay.TabIndex = 114;
-            this.checkBoxOverlay.Text = "Overlay an image onto the video";
             this.checkBoxOverlay.UseVisualStyleBackColor = true;
             this.checkBoxOverlay.CheckedChanged += new System.EventHandler(this.checkBoxOverlay_CheckedChanged);
             // 
@@ -1437,31 +1011,20 @@
             this.tabPageThPNG.Controls.Add(this.linkLabelThumbnail2);
             this.tabPageThPNG.Controls.Add(this.panelThumbnailsPNG);
             this.tabPageThPNG.Controls.Add(this.checkBoxGenThumbnailsPNG);
-            this.tabPageThPNG.Location = new System.Drawing.Point(4, 24);
+            resources.ApplyResources(this.tabPageThPNG, "tabPageThPNG");
             this.tabPageThPNG.Name = "tabPageThPNG";
-            this.tabPageThPNG.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPageThPNG.Size = new System.Drawing.Size(724, 361);
-            this.tabPageThPNG.TabIndex = 3;
-            this.tabPageThPNG.Text = "Thumbnails (PNG)";
             this.tabPageThPNG.UseVisualStyleBackColor = true;
             // 
             // linkLabelThumbnail2
             // 
-            this.linkLabelThumbnail2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.linkLabelThumbnail2.AutoSize = true;
-            this.linkLabelThumbnail2.Location = new System.Drawing.Point(537, 18);
+            resources.ApplyResources(this.linkLabelThumbnail2, "linkLabelThumbnail2");
             this.linkLabelThumbnail2.Name = "linkLabelThumbnail2";
-            this.linkLabelThumbnail2.Size = new System.Drawing.Size(181, 15);
-            this.linkLabelThumbnail2.TabIndex = 115;
             this.linkLabelThumbnail2.TabStop = true;
-            this.linkLabelThumbnail2.Text = "More information on thumbnails";
             this.linkLabelThumbnail2.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel_LinkClicked);
             // 
             // panelThumbnailsPNG
             // 
-            this.panelThumbnailsPNG.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            resources.ApplyResources(this.panelThumbnailsPNG, "panelThumbnailsPNG");
             this.panelThumbnailsPNG.Controls.Add(this.checkBoxBestPNG);
             this.panelThumbnailsPNG.Controls.Add(this.radioButtonPercentPNG);
             this.panelThumbnailsPNG.Controls.Add(this.radioButtonPixelsPNG);
@@ -1481,61 +1044,40 @@
             this.panelThumbnailsPNG.Controls.Add(this.label26);
             this.panelThumbnailsPNG.Controls.Add(this.label27);
             this.panelThumbnailsPNG.Controls.Add(this.textBoxThTimeRangePNG);
-            this.panelThumbnailsPNG.Enabled = false;
-            this.panelThumbnailsPNG.Location = new System.Drawing.Point(15, 43);
             this.panelThumbnailsPNG.Name = "panelThumbnailsPNG";
-            this.panelThumbnailsPNG.Size = new System.Drawing.Size(645, 301);
-            this.panelThumbnailsPNG.TabIndex = 114;
             // 
             // checkBoxBestPNG
             // 
-            this.checkBoxBestPNG.AutoSize = true;
-            this.checkBoxBestPNG.Location = new System.Drawing.Point(6, 62);
+            resources.ApplyResources(this.checkBoxBestPNG, "checkBoxBestPNG");
             this.checkBoxBestPNG.Name = "checkBoxBestPNG";
-            this.checkBoxBestPNG.Size = new System.Drawing.Size(206, 19);
-            this.checkBoxBestPNG.TabIndex = 119;
-            this.checkBoxBestPNG.Text = "Best mode (first interesting frame)";
             this.checkBoxBestPNG.UseVisualStyleBackColor = true;
             this.checkBoxBestPNG.CheckedChanged += new System.EventHandler(this.checkBoxBestPNG_CheckedChanged);
             // 
             // radioButtonPercentPNG
             // 
-            this.radioButtonPercentPNG.AutoSize = true;
-            this.radioButtonPercentPNG.Location = new System.Drawing.Point(257, 26);
+            resources.ApplyResources(this.radioButtonPercentPNG, "radioButtonPercentPNG");
             this.radioButtonPercentPNG.Name = "radioButtonPercentPNG";
-            this.radioButtonPercentPNG.Size = new System.Drawing.Size(84, 19);
-            this.radioButtonPercentPNG.TabIndex = 115;
-            this.radioButtonPercentPNG.Text = "Percentage";
             this.radioButtonPercentPNG.UseVisualStyleBackColor = true;
             this.radioButtonPercentPNG.CheckedChanged += new System.EventHandler(this.radioButtonPercentPNG_CheckedChanged);
             // 
             // radioButtonPixelsPNG
             // 
-            this.radioButtonPixelsPNG.AutoSize = true;
+            resources.ApplyResources(this.radioButtonPixelsPNG, "radioButtonPixelsPNG");
             this.radioButtonPixelsPNG.Checked = true;
-            this.radioButtonPixelsPNG.Location = new System.Drawing.Point(197, 26);
             this.radioButtonPixelsPNG.Name = "radioButtonPixelsPNG";
-            this.radioButtonPixelsPNG.Size = new System.Drawing.Size(54, 19);
-            this.radioButtonPixelsPNG.TabIndex = 114;
             this.radioButtonPixelsPNG.TabStop = true;
-            this.radioButtonPixelsPNG.Text = "Pixels";
             this.radioButtonPixelsPNG.UseVisualStyleBackColor = true;
             // 
             // checkBoxPresResRotPNG
             // 
-            this.checkBoxPresResRotPNG.AutoSize = true;
-            this.checkBoxPresResRotPNG.Location = new System.Drawing.Point(393, 26);
+            resources.ApplyResources(this.checkBoxPresResRotPNG, "checkBoxPresResRotPNG");
             this.checkBoxPresResRotPNG.Name = "checkBoxPresResRotPNG";
-            this.checkBoxPresResRotPNG.Size = new System.Drawing.Size(198, 19);
-            this.checkBoxPresResRotPNG.TabIndex = 113;
-            this.checkBoxPresResRotPNG.Text = "Preserve resolution after rotation";
             this.checkBoxPresResRotPNG.UseVisualStyleBackColor = true;
-            this.checkBoxPresResRotPNG.Visible = false;
             this.checkBoxPresResRotPNG.CheckedChanged += new System.EventHandler(this.ThumbnailSettingsChanged);
             // 
             // numericUpDownThHeightPNG
             // 
-            this.numericUpDownThHeightPNG.Location = new System.Drawing.Point(105, 26);
+            resources.ApplyResources(this.numericUpDownThHeightPNG, "numericUpDownThHeightPNG");
             this.numericUpDownThHeightPNG.Maximum = new decimal(new int[] {
             10000,
             0,
@@ -1547,8 +1089,6 @@
             0,
             0});
             this.numericUpDownThHeightPNG.Name = "numericUpDownThHeightPNG";
-            this.numericUpDownThHeightPNG.Size = new System.Drawing.Size(76, 23);
-            this.numericUpDownThHeightPNG.TabIndex = 111;
             this.numericUpDownThHeightPNG.Value = new decimal(new int[] {
             360,
             0,
@@ -1558,28 +1098,18 @@
             // 
             // label6
             // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(102, 9);
+            resources.ApplyResources(this.label6, "label6");
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(49, 15);
-            this.label6.TabIndex = 110;
-            this.label6.Text = "Height :";
             // 
             // textBoxThFileNamePNG
             // 
-            this.textBoxThFileNamePNG.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBoxThFileNamePNG.Location = new System.Drawing.Point(6, 268);
+            resources.ApplyResources(this.textBoxThFileNamePNG, "textBoxThFileNamePNG");
             this.textBoxThFileNamePNG.Name = "textBoxThFileNamePNG";
-            this.textBoxThFileNamePNG.Size = new System.Drawing.Size(566, 23);
-            this.textBoxThFileNamePNG.TabIndex = 93;
-            this.textBoxThFileNamePNG.Text = "{Basename}_{Index}{Extension}";
             this.textBoxThFileNamePNG.TextChanged += new System.EventHandler(this.ThumbnailSettingsChanged);
             // 
             // numericUpDownThWidthPNG
             // 
-            this.numericUpDownThWidthPNG.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.numericUpDownThWidthPNG.Location = new System.Drawing.Point(8, 26);
+            resources.ApplyResources(this.numericUpDownThWidthPNG, "numericUpDownThWidthPNG");
             this.numericUpDownThWidthPNG.Maximum = new decimal(new int[] {
             10000,
             0,
@@ -1591,8 +1121,6 @@
             0,
             0});
             this.numericUpDownThWidthPNG.Name = "numericUpDownThWidthPNG";
-            this.numericUpDownThWidthPNG.Size = new System.Drawing.Size(76, 23);
-            this.numericUpDownThWidthPNG.TabIndex = 109;
             this.numericUpDownThWidthPNG.Value = new decimal(new int[] {
             640,
             0,
@@ -1602,111 +1130,69 @@
             // 
             // label12
             // 
-            this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(5, 250);
+            resources.ApplyResources(this.label12, "label12");
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(128, 15);
-            this.label12.TabIndex = 94;
-            this.label12.Text = "Thumbnail files name :";
             // 
             // label19
             // 
-            this.label19.AutoSize = true;
-            this.label19.Location = new System.Drawing.Point(5, 9);
+            resources.ApplyResources(this.label19, "label19");
             this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(45, 15);
-            this.label19.TabIndex = 108;
-            this.label19.Text = "Width :";
             // 
             // label20
             // 
-            this.label20.AutoSize = true;
+            resources.ApplyResources(this.label20, "label20");
             this.label20.ForeColor = System.Drawing.SystemColors.WindowFrame;
-            this.label20.Location = new System.Drawing.Point(154, 216);
             this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(181, 15);
-            this.label20.TabIndex = 107;
-            this.label20.Text = "examples : 00:00:50 or 90% or 120";
             // 
             // label21
             // 
-            this.label21.AutoSize = true;
-            this.label21.Location = new System.Drawing.Point(3, 85);
+            resources.ApplyResources(this.label21, "label21");
             this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(67, 15);
-            this.label21.TabIndex = 96;
-            this.label21.Text = "Time Start :";
             // 
             // label22
             // 
-            this.label22.AutoSize = true;
+            resources.ApplyResources(this.label22, "label22");
             this.label22.ForeColor = System.Drawing.SystemColors.WindowFrame;
-            this.label22.Location = new System.Drawing.Point(154, 161);
             this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(181, 15);
-            this.label22.TabIndex = 106;
-            this.label22.Text = "examples : 00:00:10 or 10% or 120";
             // 
             // textBoxThTimeStartPNG
             // 
-            this.textBoxThTimeStartPNG.Location = new System.Drawing.Point(7, 104);
+            resources.ApplyResources(this.textBoxThTimeStartPNG, "textBoxThTimeStartPNG");
             this.textBoxThTimeStartPNG.Name = "textBoxThTimeStartPNG";
-            this.textBoxThTimeStartPNG.Size = new System.Drawing.Size(140, 23);
-            this.textBoxThTimeStartPNG.TabIndex = 97;
             this.textBoxThTimeStartPNG.TextChanged += new System.EventHandler(this.ThumbnailSettingsChanged);
             // 
             // label24
             // 
-            this.label24.AutoSize = true;
-            this.label24.Location = new System.Drawing.Point(4, 139);
+            resources.ApplyResources(this.label24, "label24");
             this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(66, 15);
-            this.label24.TabIndex = 98;
-            this.label24.Text = "Time Step :";
             // 
             // textBoxThTimeStepPNG
             // 
-            this.textBoxThTimeStepPNG.Location = new System.Drawing.Point(8, 158);
+            resources.ApplyResources(this.textBoxThTimeStepPNG, "textBoxThTimeStepPNG");
             this.textBoxThTimeStepPNG.Name = "textBoxThTimeStepPNG";
-            this.textBoxThTimeStepPNG.Size = new System.Drawing.Size(140, 23);
-            this.textBoxThTimeStepPNG.TabIndex = 99;
             this.textBoxThTimeStepPNG.TextChanged += new System.EventHandler(this.ThumbnailSettingsChanged);
             // 
             // label26
             // 
-            this.label26.AutoSize = true;
-            this.label26.Location = new System.Drawing.Point(3, 195);
+            resources.ApplyResources(this.label26, "label26");
             this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(76, 15);
-            this.label26.TabIndex = 100;
-            this.label26.Text = "Time Range :";
             // 
             // label27
             // 
-            this.label27.AutoSize = true;
+            resources.ApplyResources(this.label27, "label27");
             this.label27.ForeColor = System.Drawing.SystemColors.WindowFrame;
-            this.label27.Location = new System.Drawing.Point(153, 107);
             this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(181, 15);
-            this.label27.TabIndex = 102;
-            this.label27.Text = "examples : 00:00:01 or 10% or 120";
             // 
             // textBoxThTimeRangePNG
             // 
-            this.textBoxThTimeRangePNG.Location = new System.Drawing.Point(7, 213);
+            resources.ApplyResources(this.textBoxThTimeRangePNG, "textBoxThTimeRangePNG");
             this.textBoxThTimeRangePNG.Name = "textBoxThTimeRangePNG";
-            this.textBoxThTimeRangePNG.Size = new System.Drawing.Size(140, 23);
-            this.textBoxThTimeRangePNG.TabIndex = 101;
             this.textBoxThTimeRangePNG.TextChanged += new System.EventHandler(this.ThumbnailSettingsChanged);
             // 
             // checkBoxGenThumbnailsPNG
             // 
-            this.checkBoxGenThumbnailsPNG.AutoSize = true;
-            this.checkBoxGenThumbnailsPNG.Location = new System.Drawing.Point(15, 18);
+            resources.ApplyResources(this.checkBoxGenThumbnailsPNG, "checkBoxGenThumbnailsPNG");
             this.checkBoxGenThumbnailsPNG.Name = "checkBoxGenThumbnailsPNG";
-            this.checkBoxGenThumbnailsPNG.Size = new System.Drawing.Size(166, 19);
-            this.checkBoxGenThumbnailsPNG.TabIndex = 113;
-            this.checkBoxGenThumbnailsPNG.Text = "Generate PNG Thumbnails";
             this.checkBoxGenThumbnailsPNG.UseVisualStyleBackColor = true;
             this.checkBoxGenThumbnailsPNG.CheckedChanged += new System.EventHandler(this.checkBoxGenThumbnailsPNG_CheckedChanged);
             // 
@@ -1715,31 +1201,20 @@
             this.tabPageThJPG.Controls.Add(this.linkLabelThumbnail1);
             this.tabPageThJPG.Controls.Add(this.panelThumbnailsJPG);
             this.tabPageThJPG.Controls.Add(this.checkBoxGenThumbnailsJPG);
-            this.tabPageThJPG.Location = new System.Drawing.Point(4, 24);
+            resources.ApplyResources(this.tabPageThJPG, "tabPageThJPG");
             this.tabPageThJPG.Name = "tabPageThJPG";
-            this.tabPageThJPG.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPageThJPG.Size = new System.Drawing.Size(724, 361);
-            this.tabPageThJPG.TabIndex = 2;
-            this.tabPageThJPG.Text = "Thumbnails (JPG)";
             this.tabPageThJPG.UseVisualStyleBackColor = true;
             // 
             // linkLabelThumbnail1
             // 
-            this.linkLabelThumbnail1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.linkLabelThumbnail1.AutoSize = true;
-            this.linkLabelThumbnail1.Location = new System.Drawing.Point(537, 18);
+            resources.ApplyResources(this.linkLabelThumbnail1, "linkLabelThumbnail1");
             this.linkLabelThumbnail1.Name = "linkLabelThumbnail1";
-            this.linkLabelThumbnail1.Size = new System.Drawing.Size(181, 15);
-            this.linkLabelThumbnail1.TabIndex = 113;
             this.linkLabelThumbnail1.TabStop = true;
-            this.linkLabelThumbnail1.Text = "More information on thumbnails";
             this.linkLabelThumbnail1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel_LinkClicked);
             // 
             // panelThumbnailsJPG
             // 
-            this.panelThumbnailsJPG.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            resources.ApplyResources(this.panelThumbnailsJPG, "panelThumbnailsJPG");
             this.panelThumbnailsJPG.Controls.Add(this.checkBoxBestJPG);
             this.panelThumbnailsJPG.Controls.Add(this.radioButtonPercentJPG);
             this.panelThumbnailsJPG.Controls.Add(this.radioButtonPixelsJPG);
@@ -1762,61 +1237,40 @@
             this.panelThumbnailsJPG.Controls.Add(this.label11);
             this.panelThumbnailsJPG.Controls.Add(this.label10);
             this.panelThumbnailsJPG.Controls.Add(this.textBoxThTimeRangeJPG);
-            this.panelThumbnailsJPG.Enabled = false;
-            this.panelThumbnailsJPG.Location = new System.Drawing.Point(15, 43);
             this.panelThumbnailsJPG.Name = "panelThumbnailsJPG";
-            this.panelThumbnailsJPG.Size = new System.Drawing.Size(645, 301);
-            this.panelThumbnailsJPG.TabIndex = 112;
             // 
             // checkBoxBestJPG
             // 
-            this.checkBoxBestJPG.AutoSize = true;
-            this.checkBoxBestJPG.Location = new System.Drawing.Point(6, 62);
+            resources.ApplyResources(this.checkBoxBestJPG, "checkBoxBestJPG");
             this.checkBoxBestJPG.Name = "checkBoxBestJPG";
-            this.checkBoxBestJPG.Size = new System.Drawing.Size(206, 19);
-            this.checkBoxBestJPG.TabIndex = 118;
-            this.checkBoxBestJPG.Text = "Best mode (first interesting frame)";
             this.checkBoxBestJPG.UseVisualStyleBackColor = true;
             this.checkBoxBestJPG.CheckedChanged += new System.EventHandler(this.checkBoxBestJPG_CheckedChanged);
             // 
             // radioButtonPercentJPG
             // 
-            this.radioButtonPercentJPG.AutoSize = true;
-            this.radioButtonPercentJPG.Location = new System.Drawing.Point(257, 26);
+            resources.ApplyResources(this.radioButtonPercentJPG, "radioButtonPercentJPG");
             this.radioButtonPercentJPG.Name = "radioButtonPercentJPG";
-            this.radioButtonPercentJPG.Size = new System.Drawing.Size(84, 19);
-            this.radioButtonPercentJPG.TabIndex = 117;
-            this.radioButtonPercentJPG.Text = "Percentage";
             this.radioButtonPercentJPG.UseVisualStyleBackColor = true;
             this.radioButtonPercentJPG.CheckedChanged += new System.EventHandler(this.radioButtonPercentJPG_CheckedChanged);
             // 
             // radioButtonPixelsJPG
             // 
-            this.radioButtonPixelsJPG.AutoSize = true;
+            resources.ApplyResources(this.radioButtonPixelsJPG, "radioButtonPixelsJPG");
             this.radioButtonPixelsJPG.Checked = true;
-            this.radioButtonPixelsJPG.Location = new System.Drawing.Point(197, 26);
             this.radioButtonPixelsJPG.Name = "radioButtonPixelsJPG";
-            this.radioButtonPixelsJPG.Size = new System.Drawing.Size(54, 19);
-            this.radioButtonPixelsJPG.TabIndex = 116;
             this.radioButtonPixelsJPG.TabStop = true;
-            this.radioButtonPixelsJPG.Text = "Pixels";
             this.radioButtonPixelsJPG.UseVisualStyleBackColor = true;
             // 
             // checkBoxPresResRotJPG
             // 
-            this.checkBoxPresResRotJPG.AutoSize = true;
-            this.checkBoxPresResRotJPG.Location = new System.Drawing.Point(393, 26);
+            resources.ApplyResources(this.checkBoxPresResRotJPG, "checkBoxPresResRotJPG");
             this.checkBoxPresResRotJPG.Name = "checkBoxPresResRotJPG";
-            this.checkBoxPresResRotJPG.Size = new System.Drawing.Size(198, 19);
-            this.checkBoxPresResRotJPG.TabIndex = 112;
-            this.checkBoxPresResRotJPG.Text = "Preserve resolution after rotation";
             this.checkBoxPresResRotJPG.UseVisualStyleBackColor = true;
-            this.checkBoxPresResRotJPG.Visible = false;
             this.checkBoxPresResRotJPG.CheckedChanged += new System.EventHandler(this.ThumbnailSettingsChanged);
             // 
             // numericUpDownThHeightJPG
             // 
-            this.numericUpDownThHeightJPG.Location = new System.Drawing.Point(105, 26);
+            resources.ApplyResources(this.numericUpDownThHeightJPG, "numericUpDownThHeightJPG");
             this.numericUpDownThHeightJPG.Maximum = new decimal(new int[] {
             10000,
             0,
@@ -1828,8 +1282,6 @@
             0,
             0});
             this.numericUpDownThHeightJPG.Name = "numericUpDownThHeightJPG";
-            this.numericUpDownThHeightJPG.Size = new System.Drawing.Size(76, 23);
-            this.numericUpDownThHeightJPG.TabIndex = 111;
             this.numericUpDownThHeightJPG.Value = new decimal(new int[] {
             360,
             0,
@@ -1839,27 +1291,18 @@
             // 
             // label18
             // 
-            this.label18.AutoSize = true;
-            this.label18.Location = new System.Drawing.Point(102, 9);
+            resources.ApplyResources(this.label18, "label18");
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(49, 15);
-            this.label18.TabIndex = 110;
-            this.label18.Text = "Height :";
             // 
             // textBoxThFileNameJPG
             // 
-            this.textBoxThFileNameJPG.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBoxThFileNameJPG.Location = new System.Drawing.Point(6, 268);
+            resources.ApplyResources(this.textBoxThFileNameJPG, "textBoxThFileNameJPG");
             this.textBoxThFileNameJPG.Name = "textBoxThFileNameJPG";
-            this.textBoxThFileNameJPG.Size = new System.Drawing.Size(566, 23);
-            this.textBoxThFileNameJPG.TabIndex = 93;
-            this.textBoxThFileNameJPG.Text = "{Basename}_{Index}{Extension}";
             this.textBoxThFileNameJPG.TextChanged += new System.EventHandler(this.ThumbnailSettingsChanged);
             // 
             // numericUpDownThWidthJPG
             // 
-            this.numericUpDownThWidthJPG.Location = new System.Drawing.Point(8, 26);
+            resources.ApplyResources(this.numericUpDownThWidthJPG, "numericUpDownThWidthJPG");
             this.numericUpDownThWidthJPG.Maximum = new decimal(new int[] {
             10000,
             0,
@@ -1871,8 +1314,6 @@
             0,
             0});
             this.numericUpDownThWidthJPG.Name = "numericUpDownThWidthJPG";
-            this.numericUpDownThWidthJPG.Size = new System.Drawing.Size(76, 23);
-            this.numericUpDownThWidthJPG.TabIndex = 109;
             this.numericUpDownThWidthJPG.Value = new decimal(new int[] {
             640,
             0,
@@ -1882,89 +1323,57 @@
             // 
             // label8
             // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(5, 250);
+            resources.ApplyResources(this.label8, "label8");
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(128, 15);
-            this.label8.TabIndex = 94;
-            this.label8.Text = "Thumbnail files name :";
             // 
             // label17
             // 
-            this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(5, 9);
+            resources.ApplyResources(this.label17, "label17");
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(45, 15);
-            this.label17.TabIndex = 108;
-            this.label17.Text = "Width :";
             // 
             // label16
             // 
-            this.label16.AutoSize = true;
+            resources.ApplyResources(this.label16, "label16");
             this.label16.ForeColor = System.Drawing.SystemColors.WindowFrame;
-            this.label16.Location = new System.Drawing.Point(153, 216);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(181, 15);
-            this.label16.TabIndex = 107;
-            this.label16.Text = "examples : 00:00:50 or 90% or 120";
             // 
             // label9
             // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(3, 85);
+            resources.ApplyResources(this.label9, "label9");
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(67, 15);
-            this.label9.TabIndex = 96;
-            this.label9.Text = "Time Start :";
             // 
             // label15
             // 
-            this.label15.AutoSize = true;
+            resources.ApplyResources(this.label15, "label15");
             this.label15.ForeColor = System.Drawing.SystemColors.WindowFrame;
-            this.label15.Location = new System.Drawing.Point(154, 161);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(181, 15);
-            this.label15.TabIndex = 106;
-            this.label15.Text = "examples : 00:00:10 or 10% or 120";
             // 
             // textBoxThTimeStartJPG
             // 
-            this.textBoxThTimeStartJPG.Location = new System.Drawing.Point(7, 104);
+            resources.ApplyResources(this.textBoxThTimeStartJPG, "textBoxThTimeStartJPG");
             this.textBoxThTimeStartJPG.Name = "textBoxThTimeStartJPG";
-            this.textBoxThTimeStartJPG.Size = new System.Drawing.Size(140, 23);
-            this.textBoxThTimeStartJPG.TabIndex = 97;
             this.textBoxThTimeStartJPG.TextChanged += new System.EventHandler(this.ThumbnailSettingsChanged);
             // 
             // label14
             // 
-            this.label14.AutoSize = true;
+            resources.ApplyResources(this.label14, "label14");
             this.label14.ForeColor = System.Drawing.SystemColors.WindowFrame;
-            this.label14.Location = new System.Drawing.Point(466, 79);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(115, 15);
-            this.label14.TabIndex = 105;
-            this.label14.Text = "1 (worst) - 100 (best)";
             // 
             // label5
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(4, 139);
+            resources.ApplyResources(this.label5, "label5");
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(66, 15);
-            this.label5.TabIndex = 98;
-            this.label5.Text = "Time Step :";
             // 
             // numericUpDownThQuality
             // 
-            this.numericUpDownThQuality.Location = new System.Drawing.Point(393, 77);
+            resources.ApplyResources(this.numericUpDownThQuality, "numericUpDownThQuality");
             this.numericUpDownThQuality.Minimum = new decimal(new int[] {
             1,
             0,
             0,
             0});
             this.numericUpDownThQuality.Name = "numericUpDownThQuality";
-            this.numericUpDownThQuality.Size = new System.Drawing.Size(67, 23);
-            this.numericUpDownThQuality.TabIndex = 104;
             this.numericUpDownThQuality.Value = new decimal(new int[] {
             90,
             0,
@@ -1974,56 +1383,36 @@
             // 
             // textBoxThTimeStepJPG
             // 
-            this.textBoxThTimeStepJPG.Location = new System.Drawing.Point(8, 158);
+            resources.ApplyResources(this.textBoxThTimeStepJPG, "textBoxThTimeStepJPG");
             this.textBoxThTimeStepJPG.Name = "textBoxThTimeStepJPG";
-            this.textBoxThTimeStepJPG.Size = new System.Drawing.Size(140, 23);
-            this.textBoxThTimeStepJPG.TabIndex = 99;
             this.textBoxThTimeStepJPG.TextChanged += new System.EventHandler(this.ThumbnailSettingsChanged);
             // 
             // label13
             // 
-            this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(390, 59);
+            resources.ApplyResources(this.label13, "label13");
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(51, 15);
-            this.label13.TabIndex = 103;
-            this.label13.Text = "Quality :";
             // 
             // label11
             // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(3, 195);
+            resources.ApplyResources(this.label11, "label11");
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(76, 15);
-            this.label11.TabIndex = 100;
-            this.label11.Text = "Time Range :";
             // 
             // label10
             // 
-            this.label10.AutoSize = true;
+            resources.ApplyResources(this.label10, "label10");
             this.label10.ForeColor = System.Drawing.SystemColors.WindowFrame;
-            this.label10.Location = new System.Drawing.Point(153, 107);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(181, 15);
-            this.label10.TabIndex = 102;
-            this.label10.Text = "examples : 00:00:01 or 10% or 120";
             // 
             // textBoxThTimeRangeJPG
             // 
-            this.textBoxThTimeRangeJPG.Location = new System.Drawing.Point(7, 213);
+            resources.ApplyResources(this.textBoxThTimeRangeJPG, "textBoxThTimeRangeJPG");
             this.textBoxThTimeRangeJPG.Name = "textBoxThTimeRangeJPG";
-            this.textBoxThTimeRangeJPG.Size = new System.Drawing.Size(140, 23);
-            this.textBoxThTimeRangeJPG.TabIndex = 101;
             this.textBoxThTimeRangeJPG.TextChanged += new System.EventHandler(this.ThumbnailSettingsChanged);
             // 
             // checkBoxGenThumbnailsJPG
             // 
-            this.checkBoxGenThumbnailsJPG.AutoSize = true;
-            this.checkBoxGenThumbnailsJPG.Location = new System.Drawing.Point(15, 18);
+            resources.ApplyResources(this.checkBoxGenThumbnailsJPG, "checkBoxGenThumbnailsJPG");
             this.checkBoxGenThumbnailsJPG.Name = "checkBoxGenThumbnailsJPG";
-            this.checkBoxGenThumbnailsJPG.Size = new System.Drawing.Size(161, 19);
-            this.checkBoxGenThumbnailsJPG.TabIndex = 5;
-            this.checkBoxGenThumbnailsJPG.Text = "Generate JPG Thumbnails";
             this.checkBoxGenThumbnailsJPG.UseVisualStyleBackColor = true;
             this.checkBoxGenThumbnailsJPG.CheckedChanged += new System.EventHandler(this.checkBoxGenThumbnails_CheckedChanged);
             // 
@@ -2032,31 +1421,20 @@
             this.tabPageThBMP.Controls.Add(this.linkLabelThumbnail3);
             this.tabPageThBMP.Controls.Add(this.panelThumbnailsBMP);
             this.tabPageThBMP.Controls.Add(this.checkBoxGenThumbnailsBMP);
-            this.tabPageThBMP.Location = new System.Drawing.Point(4, 24);
+            resources.ApplyResources(this.tabPageThBMP, "tabPageThBMP");
             this.tabPageThBMP.Name = "tabPageThBMP";
-            this.tabPageThBMP.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPageThBMP.Size = new System.Drawing.Size(724, 361);
-            this.tabPageThBMP.TabIndex = 4;
-            this.tabPageThBMP.Text = "Thumbnails (BMP)";
             this.tabPageThBMP.UseVisualStyleBackColor = true;
             // 
             // linkLabelThumbnail3
             // 
-            this.linkLabelThumbnail3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.linkLabelThumbnail3.AutoSize = true;
-            this.linkLabelThumbnail3.Location = new System.Drawing.Point(537, 18);
+            resources.ApplyResources(this.linkLabelThumbnail3, "linkLabelThumbnail3");
             this.linkLabelThumbnail3.Name = "linkLabelThumbnail3";
-            this.linkLabelThumbnail3.Size = new System.Drawing.Size(181, 15);
-            this.linkLabelThumbnail3.TabIndex = 115;
             this.linkLabelThumbnail3.TabStop = true;
-            this.linkLabelThumbnail3.Text = "More information on thumbnails";
             this.linkLabelThumbnail3.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel_LinkClicked);
             // 
             // panelThumbnailsBMP
             // 
-            this.panelThumbnailsBMP.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            resources.ApplyResources(this.panelThumbnailsBMP, "panelThumbnailsBMP");
             this.panelThumbnailsBMP.Controls.Add(this.checkBoxBestBMP);
             this.panelThumbnailsBMP.Controls.Add(this.radioButtonPercentBMP);
             this.panelThumbnailsBMP.Controls.Add(this.radioButtonPixelsBMP);
@@ -2076,61 +1454,40 @@
             this.panelThumbnailsBMP.Controls.Add(this.label38);
             this.panelThumbnailsBMP.Controls.Add(this.label39);
             this.panelThumbnailsBMP.Controls.Add(this.textBoxThTimeRangeBMP);
-            this.panelThumbnailsBMP.Enabled = false;
-            this.panelThumbnailsBMP.Location = new System.Drawing.Point(15, 43);
             this.panelThumbnailsBMP.Name = "panelThumbnailsBMP";
-            this.panelThumbnailsBMP.Size = new System.Drawing.Size(645, 301);
-            this.panelThumbnailsBMP.TabIndex = 114;
             // 
             // checkBoxBestBMP
             // 
-            this.checkBoxBestBMP.AutoSize = true;
-            this.checkBoxBestBMP.Location = new System.Drawing.Point(6, 62);
+            resources.ApplyResources(this.checkBoxBestBMP, "checkBoxBestBMP");
             this.checkBoxBestBMP.Name = "checkBoxBestBMP";
-            this.checkBoxBestBMP.Size = new System.Drawing.Size(206, 19);
-            this.checkBoxBestBMP.TabIndex = 119;
-            this.checkBoxBestBMP.Text = "Best mode (first interesting frame)";
             this.checkBoxBestBMP.UseVisualStyleBackColor = true;
             this.checkBoxBestBMP.CheckedChanged += new System.EventHandler(this.checkBoxBestBMP_CheckedChanged);
             // 
             // radioButtonPercentBMP
             // 
-            this.radioButtonPercentBMP.AutoSize = true;
-            this.radioButtonPercentBMP.Location = new System.Drawing.Point(257, 26);
+            resources.ApplyResources(this.radioButtonPercentBMP, "radioButtonPercentBMP");
             this.radioButtonPercentBMP.Name = "radioButtonPercentBMP";
-            this.radioButtonPercentBMP.Size = new System.Drawing.Size(84, 19);
-            this.radioButtonPercentBMP.TabIndex = 117;
-            this.radioButtonPercentBMP.Text = "Percentage";
             this.radioButtonPercentBMP.UseVisualStyleBackColor = true;
             this.radioButtonPercentBMP.CheckedChanged += new System.EventHandler(this.radioButtonPercentBMP_CheckedChanged);
             // 
             // radioButtonPixelsBMP
             // 
-            this.radioButtonPixelsBMP.AutoSize = true;
+            resources.ApplyResources(this.radioButtonPixelsBMP, "radioButtonPixelsBMP");
             this.radioButtonPixelsBMP.Checked = true;
-            this.radioButtonPixelsBMP.Location = new System.Drawing.Point(197, 26);
             this.radioButtonPixelsBMP.Name = "radioButtonPixelsBMP";
-            this.radioButtonPixelsBMP.Size = new System.Drawing.Size(54, 19);
-            this.radioButtonPixelsBMP.TabIndex = 116;
             this.radioButtonPixelsBMP.TabStop = true;
-            this.radioButtonPixelsBMP.Text = "Pixels";
             this.radioButtonPixelsBMP.UseVisualStyleBackColor = true;
             // 
             // checkBoxPresResRotBMP
             // 
-            this.checkBoxPresResRotBMP.AutoSize = true;
-            this.checkBoxPresResRotBMP.Location = new System.Drawing.Point(393, 26);
+            resources.ApplyResources(this.checkBoxPresResRotBMP, "checkBoxPresResRotBMP");
             this.checkBoxPresResRotBMP.Name = "checkBoxPresResRotBMP";
-            this.checkBoxPresResRotBMP.Size = new System.Drawing.Size(198, 19);
-            this.checkBoxPresResRotBMP.TabIndex = 113;
-            this.checkBoxPresResRotBMP.Text = "Preserve resolution after rotation";
             this.checkBoxPresResRotBMP.UseVisualStyleBackColor = true;
-            this.checkBoxPresResRotBMP.Visible = false;
             this.checkBoxPresResRotBMP.CheckedChanged += new System.EventHandler(this.ThumbnailSettingsChanged);
             // 
             // numericUpDownThHeightBMP
             // 
-            this.numericUpDownThHeightBMP.Location = new System.Drawing.Point(105, 26);
+            resources.ApplyResources(this.numericUpDownThHeightBMP, "numericUpDownThHeightBMP");
             this.numericUpDownThHeightBMP.Maximum = new decimal(new int[] {
             10000,
             0,
@@ -2142,8 +1499,6 @@
             0,
             0});
             this.numericUpDownThHeightBMP.Name = "numericUpDownThHeightBMP";
-            this.numericUpDownThHeightBMP.Size = new System.Drawing.Size(76, 23);
-            this.numericUpDownThHeightBMP.TabIndex = 111;
             this.numericUpDownThHeightBMP.Value = new decimal(new int[] {
             360,
             0,
@@ -2152,27 +1507,18 @@
             // 
             // label28
             // 
-            this.label28.AutoSize = true;
-            this.label28.Location = new System.Drawing.Point(102, 9);
+            resources.ApplyResources(this.label28, "label28");
             this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(49, 15);
-            this.label28.TabIndex = 110;
-            this.label28.Text = "Height :";
             // 
             // textBoxThFileNameBMP
             // 
-            this.textBoxThFileNameBMP.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBoxThFileNameBMP.Location = new System.Drawing.Point(6, 268);
+            resources.ApplyResources(this.textBoxThFileNameBMP, "textBoxThFileNameBMP");
             this.textBoxThFileNameBMP.Name = "textBoxThFileNameBMP";
-            this.textBoxThFileNameBMP.Size = new System.Drawing.Size(566, 23);
-            this.textBoxThFileNameBMP.TabIndex = 93;
-            this.textBoxThFileNameBMP.Text = "{Basename}_{Index}{Extension}";
             this.textBoxThFileNameBMP.TextChanged += new System.EventHandler(this.ThumbnailSettingsChanged);
             // 
             // numericUpDownThWidthBMP
             // 
-            this.numericUpDownThWidthBMP.Location = new System.Drawing.Point(8, 26);
+            resources.ApplyResources(this.numericUpDownThWidthBMP, "numericUpDownThWidthBMP");
             this.numericUpDownThWidthBMP.Maximum = new decimal(new int[] {
             10000,
             0,
@@ -2184,8 +1530,6 @@
             0,
             0});
             this.numericUpDownThWidthBMP.Name = "numericUpDownThWidthBMP";
-            this.numericUpDownThWidthBMP.Size = new System.Drawing.Size(76, 23);
-            this.numericUpDownThWidthBMP.TabIndex = 109;
             this.numericUpDownThWidthBMP.Value = new decimal(new int[] {
             640,
             0,
@@ -2194,135 +1538,82 @@
             // 
             // label29
             // 
-            this.label29.AutoSize = true;
-            this.label29.Location = new System.Drawing.Point(5, 250);
+            resources.ApplyResources(this.label29, "label29");
             this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(128, 15);
-            this.label29.TabIndex = 94;
-            this.label29.Text = "Thumbnail files name :";
             // 
             // label30
             // 
-            this.label30.AutoSize = true;
-            this.label30.Location = new System.Drawing.Point(5, 9);
+            resources.ApplyResources(this.label30, "label30");
             this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(45, 15);
-            this.label30.TabIndex = 108;
-            this.label30.Text = "Width :";
             // 
             // label31
             // 
-            this.label31.AutoSize = true;
+            resources.ApplyResources(this.label31, "label31");
             this.label31.ForeColor = System.Drawing.SystemColors.WindowFrame;
-            this.label31.Location = new System.Drawing.Point(154, 216);
             this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(181, 15);
-            this.label31.TabIndex = 107;
-            this.label31.Text = "examples : 00:00:50 or 90% or 120";
             // 
             // label32
             // 
-            this.label32.AutoSize = true;
-            this.label32.Location = new System.Drawing.Point(3, 85);
+            resources.ApplyResources(this.label32, "label32");
             this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(67, 15);
-            this.label32.TabIndex = 96;
-            this.label32.Text = "Time Start :";
             // 
             // label33
             // 
-            this.label33.AutoSize = true;
+            resources.ApplyResources(this.label33, "label33");
             this.label33.ForeColor = System.Drawing.SystemColors.WindowFrame;
-            this.label33.Location = new System.Drawing.Point(154, 161);
             this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(181, 15);
-            this.label33.TabIndex = 106;
-            this.label33.Text = "examples : 00:00:10 or 10% or 120";
             // 
             // textBoxThTimeStartBMP
             // 
-            this.textBoxThTimeStartBMP.Location = new System.Drawing.Point(7, 104);
+            resources.ApplyResources(this.textBoxThTimeStartBMP, "textBoxThTimeStartBMP");
             this.textBoxThTimeStartBMP.Name = "textBoxThTimeStartBMP";
-            this.textBoxThTimeStartBMP.Size = new System.Drawing.Size(140, 23);
-            this.textBoxThTimeStartBMP.TabIndex = 97;
             this.textBoxThTimeStartBMP.TextChanged += new System.EventHandler(this.ThumbnailSettingsChanged);
             // 
             // label36
             // 
-            this.label36.AutoSize = true;
-            this.label36.Location = new System.Drawing.Point(4, 139);
+            resources.ApplyResources(this.label36, "label36");
             this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(66, 15);
-            this.label36.TabIndex = 98;
-            this.label36.Text = "Time Step :";
             // 
             // textBoxThTimeStepBMP
             // 
-            this.textBoxThTimeStepBMP.Location = new System.Drawing.Point(8, 158);
+            resources.ApplyResources(this.textBoxThTimeStepBMP, "textBoxThTimeStepBMP");
             this.textBoxThTimeStepBMP.Name = "textBoxThTimeStepBMP";
-            this.textBoxThTimeStepBMP.Size = new System.Drawing.Size(140, 23);
-            this.textBoxThTimeStepBMP.TabIndex = 99;
             this.textBoxThTimeStepBMP.TextChanged += new System.EventHandler(this.ThumbnailSettingsChanged);
             // 
             // label38
             // 
-            this.label38.AutoSize = true;
-            this.label38.Location = new System.Drawing.Point(3, 195);
+            resources.ApplyResources(this.label38, "label38");
             this.label38.Name = "label38";
-            this.label38.Size = new System.Drawing.Size(76, 15);
-            this.label38.TabIndex = 100;
-            this.label38.Text = "Time Range :";
             // 
             // label39
             // 
-            this.label39.AutoSize = true;
+            resources.ApplyResources(this.label39, "label39");
             this.label39.ForeColor = System.Drawing.SystemColors.WindowFrame;
-            this.label39.Location = new System.Drawing.Point(153, 107);
             this.label39.Name = "label39";
-            this.label39.Size = new System.Drawing.Size(181, 15);
-            this.label39.TabIndex = 102;
-            this.label39.Text = "examples : 00:00:01 or 10% or 120";
             // 
             // textBoxThTimeRangeBMP
             // 
-            this.textBoxThTimeRangeBMP.Location = new System.Drawing.Point(7, 213);
+            resources.ApplyResources(this.textBoxThTimeRangeBMP, "textBoxThTimeRangeBMP");
             this.textBoxThTimeRangeBMP.Name = "textBoxThTimeRangeBMP";
-            this.textBoxThTimeRangeBMP.Size = new System.Drawing.Size(140, 23);
-            this.textBoxThTimeRangeBMP.TabIndex = 101;
             this.textBoxThTimeRangeBMP.TextChanged += new System.EventHandler(this.ThumbnailSettingsChanged);
             // 
             // checkBoxGenThumbnailsBMP
             // 
-            this.checkBoxGenThumbnailsBMP.AutoSize = true;
-            this.checkBoxGenThumbnailsBMP.Location = new System.Drawing.Point(15, 18);
+            resources.ApplyResources(this.checkBoxGenThumbnailsBMP, "checkBoxGenThumbnailsBMP");
             this.checkBoxGenThumbnailsBMP.Name = "checkBoxGenThumbnailsBMP";
-            this.checkBoxGenThumbnailsBMP.Size = new System.Drawing.Size(167, 19);
-            this.checkBoxGenThumbnailsBMP.TabIndex = 113;
-            this.checkBoxGenThumbnailsBMP.Text = "Generate BMP Thumbnails";
             this.checkBoxGenThumbnailsBMP.UseVisualStyleBackColor = true;
             this.checkBoxGenThumbnailsBMP.CheckedChanged += new System.EventHandler(this.checkBoxGenThumbnailsBMP_CheckedChanged);
             // 
             // labelsummaryjob
             // 
-            this.labelsummaryjob.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelsummaryjob.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelsummaryjob.Location = new System.Drawing.Point(94, 49);
+            resources.ApplyResources(this.labelsummaryjob, "labelsummaryjob");
             this.labelsummaryjob.Name = "labelsummaryjob";
-            this.labelsummaryjob.Size = new System.Drawing.Size(540, 41);
-            this.labelsummaryjob.TabIndex = 76;
-            this.labelsummaryjob.Text = "You will submit n jobs with n tasks";
             // 
             // labelProcessorVersion
             // 
-            this.labelProcessorVersion.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            resources.ApplyResources(this.labelProcessorVersion, "labelProcessorVersion");
             this.labelProcessorVersion.ForeColor = System.Drawing.SystemColors.WindowFrame;
-            this.labelProcessorVersion.Location = new System.Drawing.Point(628, 38);
             this.labelProcessorVersion.Name = "labelProcessorVersion";
-            this.labelProcessorVersion.Size = new System.Drawing.Size(124, 20);
-            this.labelProcessorVersion.TabIndex = 77;
-            this.labelProcessorVersion.Text = "Version {0}";
-            this.labelProcessorVersion.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
             // errorProvider1
             // 
@@ -2331,39 +1622,28 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::AMSExplorer.Bitmaps.encoding_large;
-            this.pictureBox1.Location = new System.Drawing.Point(27, 22);
+            resources.ApplyResources(this.pictureBox1, "pictureBox1");
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(50, 50);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox1.TabIndex = 84;
             this.pictureBox1.TabStop = false;
             // 
             // panel2
             // 
-            this.panel2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            resources.ApplyResources(this.panel2, "panel2");
             this.panel2.BackColor = System.Drawing.SystemColors.Control;
-            this.panel2.Location = new System.Drawing.Point(766, 606);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(24, 42);
-            this.panel2.TabIndex = 85;
             // 
             // buttonJobOptions
             // 
-            this.buttonJobOptions.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.buttonJobOptions.Location = new System.Drawing.Point(596, 520);
+            resources.ApplyResources(this.buttonJobOptions, "buttonJobOptions");
             this.buttonJobOptions.Name = "buttonJobOptions";
-            this.buttonJobOptions.Size = new System.Drawing.Size(160, 27);
-            this.buttonJobOptions.TabIndex = 75;
-            this.buttonJobOptions.Text = "Job options...";
             this.buttonJobOptions.UseVisualStyleBackColor = true;
             // 
             // EncodingAMEStandard
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Window;
             this.CancelButton = this.buttonCancel;
-            this.ClientSize = new System.Drawing.Size(784, 661);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.labelProcessorVersion);
@@ -2377,12 +1657,8 @@
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.moreinfoame);
             this.Controls.Add(this.tabControl1);
-            this.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "EncodingAMEStandard";
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Show;
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "Media Encoder Standard";
             this.Load += new System.EventHandler(this.EncodingAMEStandard_Load);
             this.Shown += new System.EventHandler(this.EncodingAMEStandard_Shown);
             this.panel1.ResumeLayout(false);

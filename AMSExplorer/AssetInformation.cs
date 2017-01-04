@@ -311,6 +311,7 @@ namespace AMSExplorer
             DGAsset.Rows.Add("Created", ((DateTime)myAsset.Created).ToLocalTime().ToString("G"));
             DGAsset.Rows.Add("Last Modified", ((DateTime)myAsset.LastModified).ToLocalTime().ToString("G"));
             DGAsset.Rows.Add("Creation Options", (AssetCreationOptions)myAsset.Options);
+            DGAsset.Rows.Add("Format Option", (AssetFormatOption)myAsset.FormatOption);
 
             var program = myContext.Programs.Where(p => p.AssetId == myAsset.Id).FirstOrDefault();
             if (program != null) // Asset is linked to a Program

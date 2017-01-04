@@ -2366,6 +2366,14 @@ namespace AMSExplorer
                     //if (number == 0 && asset.AssetFiles.Count() > 2)
 
                     if (number == 0
+                        && asset.FormatOption == AssetFormatOption.AdaptiveStreaming
+                        && AssetFiles.Where(f => f.Name.EndsWith(".ism", StringComparison.OrdinalIgnoreCase) || f.Name.EndsWith(".ismc", StringComparison.OrdinalIgnoreCase)).Count() == 2
+                        )
+                    {
+                        number = AssetFiles.Where(f => f.AssetFileOptions == AssetFileOptions.Fragmented).Count();
+                        type = "Adaptive Streaming";
+                    }
+                    else if (number == 0
                         && AssetFiles.Where(f => f.Name.EndsWith(".ism", StringComparison.OrdinalIgnoreCase) || f.Name.EndsWith(".ismc", StringComparison.OrdinalIgnoreCase)).Count() == 2
                         && (AssetFiles.Where(f => f.AssetFileOptions == AssetFileOptions.Fragmented).Count() == AssetFiles.Count - 2)
                         )
@@ -3943,6 +3951,7 @@ namespace AMSExplorer
         public TaskOptions TasksOptionsSetting { get; set; }
         public bool TasksOptionsSettingReadOnly { get; set; }
         public AssetCreationOptions OutputAssetsCreationOptions { get; set; }
+        public AssetFormatOption OutputAssetsFormatOption { get; set; }
     }
 
 

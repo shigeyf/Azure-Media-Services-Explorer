@@ -48,6 +48,7 @@
             this.checkBoxDisplayProgramID = new System.Windows.Forms.CheckBox();
             this.checkBoxDisplayChannelID = new System.Windows.Forms.CheckBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.checkBoxUseAdaptiveStreamingFormat = new System.Windows.Forms.CheckBox();
             this.checkBoxShowPremiumLiveEncoding = new System.Windows.Forms.CheckBox();
             this.label8 = new System.Windows.Forms.Label();
             this.numericUpDownTokenDuration = new System.Windows.Forms.NumericUpDown();
@@ -324,6 +325,7 @@
             // 
             // groupBox2
             // 
+            this.groupBox2.Controls.Add(this.checkBoxUseAdaptiveStreamingFormat);
             this.groupBox2.Controls.Add(this.label13);
             this.groupBox2.Controls.Add(this.numericUpDownAssetAnalysisStep);
             this.groupBox2.Controls.Add(this.label12);
@@ -801,6 +803,17 @@
             this.label12.Text = "Start (%) :";
             this.label12.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
+            // checkBoxUseAdaptiveStreamingFormat
+            // 
+            this.checkBoxUseAdaptiveStreamingFormat.AutoSize = true;
+            this.checkBoxUseAdaptiveStreamingFormat.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.checkBoxUseAdaptiveStreamingFormat.Location = new System.Drawing.Point(49, 78);
+            this.checkBoxUseAdaptiveStreamingFormat.Name = "checkBoxUseAdaptiveStreamingFormat";
+            this.checkBoxUseAdaptiveStreamingFormat.Size = new System.Drawing.Size(352, 19);
+            this.checkBoxUseAdaptiveStreamingFormat.TabIndex = 62;
+            this.checkBoxUseAdaptiveStreamingFormat.Text = "Use adaptive streaming format (fragmented) for output assets";
+            this.checkBoxUseAdaptiveStreamingFormat.UseVisualStyleBackColor = true;
+            // 
             // label13
             // 
             this.label13.Font = new System.Drawing.Font("Segoe UI", 9F);
@@ -879,6 +892,7 @@
         public System.Windows.Forms.Button buttonCancel;
         private System.Windows.Forms.CheckBox checkBoxUseStorageEncryption;
         private System.Windows.Forms.CheckBox checkBoxUseProtectedConfig;
+        private System.Windows.Forms.CheckBox checkBoxUseAdaptiveStreamingFormat;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.ComboBox comboBoxNbItems;
         public System.Windows.Forms.Button buttonReset;

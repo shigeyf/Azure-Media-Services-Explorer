@@ -5866,4 +5866,10 @@
   <data name="optinToStandardToolStripMenuItem.Text" xml:space="preserve">
     <value>Classic から Standard へ移行...</value>
   </data>
+  <data name="processAssetsWithAzureMediaVideoAnnotatorToolStripMenuItem1.Text" xml:space="preserve">
+    <value>Azure Media Video Annotator...</value>
+  </data>
+  <data name="ContextMenuItemUltraWorkflow.Text" xml:space="preserve">
+    <value>Media Encoder Ultra Workflow でのアセットのエンコード...</value>
+  </data>
 </root>

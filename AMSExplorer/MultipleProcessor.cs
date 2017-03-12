@@ -327,7 +327,7 @@ namespace AMSExplorer
                 }
                 else
                 {
-                    if (Procs[mylistview.SelectedIndices[0]].Name == Constants.AzureMediaEncoderPremiumWorkflow)
+                    if (Procs[mylistview.SelectedIndices[0]].Name == Constants.AzureMediaEncoderPremiumWorkflow || Procs[mylistview.SelectedIndices[0]].Name == Constants.AzureMediaEncoderUltraWorkflow)
                     {
                         if (SelectedAssets.Count < 2)
                         {

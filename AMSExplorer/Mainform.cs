@@ -224,6 +224,10 @@ namespace AMSExplorer
                     encodeAssetWithPremiumWorkflowToolStripMenuItem.Enabled = false;  //menu
                     ContextMenuItemPremiumWorkflow.Enabled = false; // mouse context menu
                 }
+                if (GetLatestMediaProcessorByName(Constants.AzureMediaEncoderUltraWorkflow) == null)
+                {
+                    ContextMenuItemUltraWorkflow.Enabled = false; // mouse context menu
+                }
             }
             catch (Exception ex)
             {
@@ -4679,6 +4683,102 @@ namespace AMSExplorer
             }
         }
 
+
+        private void DoMenuEncodeWithUltraWorkflow()
+        {
+            List<IAsset> SelectedAssets = ReturnSelectedAssets();
+
+            if (SelectedAssets.Count == 0)
+            {
+                MessageBox.Show("No asset was selected");
+                return;
+            }
+
+            foreach (IAsset asset in SelectedAssets) // check that there is no blueprint in the selected assets
+            {
+                if (IsAWorkflow(asset))
+                {
+                    MessageBox.Show("One of the selected asset(s) is a workflow. Please select only video assets.");
+                    return;
+                }
+            }
+
+            CheckAssetSizeRegardingMediaUnit(SelectedAssets);
+
+            IMediaProcessor processor = GetLatestMediaProcessorByName(Constants.AzureMediaEncoderUltraWorkflow);
+
+            string taskname = "Ultra Workflow Encoding of " + Constants.NameconvInputasset + " with " + Constants.NameconvWorkflow;
+            this.Cursor = Cursors.WaitCursor;
+            EncodingPremium form = new EncodingPremium(_context, processor.Version)
+            {
+                EncodingPromptText = (SelectedAssets.Count > 1) ? "Input assets : " + SelectedAssets.Count + " assets have been selected." : "Input asset : '" + SelectedAssets.FirstOrDefault().Name + "'",
+                EncodingJobName = "Ultra Workflow Encoding of " + Constants.NameconvInputasset,
+                EncodingOutputAssetName = Constants.NameconvInputasset + " - Ultra Workflow encoded",
+                EncodingNumberOfInputAssets = SelectedAssets.Count,
+                EncodingPremiumWorkflowPresetXMLFiles = Properties.Settings.Default.PremiumWorkflowPresetXMLFilesCurrentFolder,
+
+            };
+            form.JobOptions = new JobOptionsVar()
+            {
+                Priority = Properties.Settings.Default.DefaultJobPriority,
+                StorageSelected = string.Empty,
+                TasksOptionsSetting = TaskOptions.None, // we want to force this as encryption is not supported for empty string
+                TasksOptionsSettingReadOnly = true,
+                OutputAssetsCreationOptions = Properties.Settings.Default.useStorageEncryption ? AssetCreationOptions.StorageEncrypted : AssetCreationOptions.None
+            };
+
+            DialogResult dialogResult = form.ShowDialog();
+
+            this.Cursor = Cursors.Arrow;
+
+            if (dialogResult == DialogResult.OK)
+            {
+                // multiple jobs: one job for each input asset
+                foreach (IAsset asset in SelectedAssets)
+                {
+                    string jobnameloc = form.EncodingJobName.Replace(Constants.NameconvInputasset, asset.Name);
+
+                    IJob job = _context.Jobs.Create(jobnameloc, form.JobOptions.Priority);
+                    foreach (IAsset graphAsset in form.SelectedPremiumWorkflows) // for each workflow selected, we create a task
+                    {
+                        string tasknameloc = taskname.Replace(Constants.NameconvInputasset, asset.Name).Replace(Constants.NameconvWorkflow, graphAsset.Name);
+
+                        ITask task = job.Tasks.AddNew(
+                                    tasknameloc,
+                                   processor,
+                                   form.XMLData,
+                                   form.JobOptions.TasksOptionsSetting
+                                   );
+                        // Specify the graph asset to be encoded, followed by the input video asset to be used
+                        task.InputAssets.Add(graphAsset);
+                        task.InputAssets.Add(asset); // we add one asset
+                        string outputassetnameloc = form.EncodingOutputAssetName.Replace(Constants.NameconvInputasset, asset.Name).Replace(Constants.NameconvWorkflow, graphAsset.Name);
+
+                        task.OutputAssets.AddNew(outputassetnameloc, form.JobOptions.StorageSelected, form.JobOptions.OutputAssetsCreationOptions, form.JobOptions.OutputAssetsFormatOption);
+                    }
+                    TextBoxLogWriteLine("Submitting encoding job '{0}'", jobnameloc);
+                    // Submit the job and wait until it is completed. 
+                    try
+                    {
+                        job.Submit();
+                    }
+                    catch (Exception e)
+                    {
+                        // Add useful information to the exception
+                        if (SelectedAssets.Count < 5)
+                        {
+                            MessageBox.Show(string.Format("There has been a problem when submitting the job '{0}'", jobnameloc) + Constants.endline + Constants.endline + Program.GetErrorMessage(e), "Job Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        }
+                        TextBoxLogWriteLine("There has been a problem when submitting the job {0}.", jobnameloc, true);
+                        TextBoxLogWriteLine(e);
+                        return;
+                    }
+                    dataGridViewJobsV.DoJobProgress(job);
+                }
+                DotabControlMainSwitch(AMSExplorer.Properties.Resources.TabJobs);
+                DoRefreshGridJobV(false);
+            }
+        }
 
         private void DoMenuEncodeWithAMESystemPreset()
         {
@@ -11844,6 +11944,11 @@ namespace AMSExplorer
         private void encodeAssetsWithPremiumWorkflowToolStripMenuItem_Click(object sender, EventArgs e)
         {
             DoMenuEncodeWithPremiumWorkflow();
+        }
+
+        private void encodeAssetsWithUltraWorkflowToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            DoMenuEncodeWithUltraWorkflow();
         }
 
         private void createALocatorToolStripMenuItem_Click(object sender, EventArgs e)

@@ -750,6 +750,12 @@
   <data name="ContextMenuItemPremiumWorkflow.Text" xml:space="preserve">
     <value>Encode asset(s) with Media Encoder Premium Workflow...</value>
   </data>
+  <data name="ContextMenuItemUltraWorkflow.Size" type="System.Drawing.Size, System.Drawing">
+    <value>419, 22</value>
+  </data>
+  <data name="ContextMenuItemUltraWorkflow.Text" xml:space="preserve">
+    <value>Encode asset(s) with Media Encoder Ultra Workflow...</value>
+  </data>
   <data name="toolStripSeparator32.Size" type="System.Drawing.Size, System.Drawing">
     <value>416, 6</value>
   </data>
@@ -1140,7 +1146,7 @@
     <value>dataGridViewAssetsV</value>
   </data>
   <data name="&gt;&gt;dataGridViewAssetsV.Type" xml:space="preserve">
-    <value>AMSExplorer.DataGridViewAssets, AMSExplorer, Version=3.47.2.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>AMSExplorer.DataGridViewAssets, AMSExplorer, Version=3.48.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;dataGridViewAssetsV.Parent" xml:space="preserve">
     <value>tabPageAssets</value>
@@ -1697,7 +1703,7 @@
     <value>dataGridViewIngestManifestsV</value>
   </data>
   <data name="&gt;&gt;dataGridViewIngestManifestsV.Type" xml:space="preserve">
-    <value>AMSExplorer.DataGridViewIngestManifest, AMSExplorer, Version=3.47.2.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>AMSExplorer.DataGridViewIngestManifest, AMSExplorer, Version=3.48.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;dataGridViewIngestManifestsV.Parent" xml:space="preserve">
     <value>tabPageTransfers</value>
@@ -2535,7 +2541,7 @@
     <value>dataGridViewJobsV</value>
   </data>
   <data name="&gt;&gt;dataGridViewJobsV.Type" xml:space="preserve">
-    <value>AMSExplorer.DataGridViewJobs, AMSExplorer, Version=3.47.2.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>AMSExplorer.DataGridViewJobs, AMSExplorer, Version=3.48.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;dataGridViewJobsV.Parent" xml:space="preserve">
     <value>tabPageJobs</value>
@@ -2851,7 +2857,7 @@
     <value>dataGridViewProgramsV</value>
   </data>
   <data name="&gt;&gt;dataGridViewProgramsV.Type" xml:space="preserve">
-    <value>AMSExplorer.DataGridViewLiveProgram, AMSExplorer, Version=3.47.2.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>AMSExplorer.DataGridViewLiveProgram, AMSExplorer, Version=3.48.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;dataGridViewProgramsV.Parent" xml:space="preserve">
     <value>panelPrograms</value>
@@ -3498,7 +3504,7 @@
     <value>dataGridViewChannelsV</value>
   </data>
   <data name="&gt;&gt;dataGridViewChannelsV.Type" xml:space="preserve">
-    <value>AMSExplorer.DataGridViewLiveChannel, AMSExplorer, Version=3.47.2.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>AMSExplorer.DataGridViewLiveChannel, AMSExplorer, Version=3.48.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;dataGridViewChannelsV.Parent" xml:space="preserve">
     <value>panelChannels</value>
@@ -4020,7 +4026,7 @@
     <value>dataGridViewStreamingEndpointsV</value>
   </data>
   <data name="&gt;&gt;dataGridViewStreamingEndpointsV.Type" xml:space="preserve">
-    <value>AMSExplorer.DataGridViewStreamingEndpoints, AMSExplorer, Version=3.47.2.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>AMSExplorer.DataGridViewStreamingEndpoints, AMSExplorer, Version=3.48.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;dataGridViewStreamingEndpointsV.Parent" xml:space="preserve">
     <value>tabPageOrigins</value>
@@ -8890,7 +8896,7 @@
     <value>True</value>
   </metadata>
   <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>112</value>
+    <value>136</value>
   </metadata>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
     <value>6, 13</value>
@@ -9133,6 +9139,12 @@
     <value>ContextMenuItemPremiumWorkflow</value>
   </data>
   <data name="&gt;&gt;ContextMenuItemPremiumWorkflow.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ContextMenuItemUltraWorkflow.Name" xml:space="preserve">
+    <value>ContextMenuItemUltraWorkflow</value>
+  </data>
+  <data name="&gt;&gt;ContextMenuItemUltraWorkflow.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;toolStripSeparator32.Name" xml:space="preserve">

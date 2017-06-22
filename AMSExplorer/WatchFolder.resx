@@ -749,7 +749,7 @@ before the uploaded asset</value>
     <value>listViewWorkflows1</value>
   </data>
   <data name="&gt;&gt;listViewWorkflows1.Type" xml:space="preserve">
-    <value>AMSExplorer.ListViewWorkflows, AMSExplorer, Version=3.46.1.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>AMSExplorer.ListViewWorkflows, AMSExplorer, Version=4.0.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;listViewWorkflows1.Parent" xml:space="preserve">
     <value>panelInsertAsset</value>
@@ -827,7 +827,7 @@ before the uploaded asset</value>
     <value>listViewTemplates</value>
   </data>
   <data name="&gt;&gt;listViewTemplates.Type" xml:space="preserve">
-    <value>AMSExplorer.ListViewTemplates, AMSExplorer, Version=3.46.1.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>AMSExplorer.ListViewTemplates, AMSExplorer, Version=4.0.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;listViewTemplates.Parent" xml:space="preserve">
     <value>groupBoxProcess</value>
@@ -1155,6 +1155,9 @@ before the uploaded asset</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>ja</value>
   </metadata>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
     <value>7, 15</value>

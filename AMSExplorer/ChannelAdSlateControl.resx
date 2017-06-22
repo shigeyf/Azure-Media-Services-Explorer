@@ -235,7 +235,7 @@
     <value>Segoe UI, 9pt</value>
   </data>
   <data name="labelSlatePreviewInfo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 179</value>
+    <value>3, 178</value>
   </data>
   <data name="labelSlatePreviewInfo.Size" type="System.Drawing.Size, System.Drawing">
     <value>288, 16</value>
@@ -271,7 +271,7 @@
     <value>7, 23</value>
   </data>
   <data name="pictureBoxPreviewSlate.Size" type="System.Drawing.Size, System.Drawing">
-    <value>280, 152</value>
+    <value>280, 151</value>
   </data>
   <data name="pictureBoxPreviewSlate.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
     <value>Zoom</value>
@@ -388,7 +388,7 @@
     <value>MiddleLeft</value>
   </data>
   <data name="buttonInsertAD.Location" type="System.Drawing.Point, System.Drawing">
-    <value>330, 67</value>
+    <value>329, 67</value>
   </data>
   <data name="buttonInsertAD.Size" type="System.Drawing.Size, System.Drawing">
     <value>212, 27</value>
@@ -424,7 +424,7 @@
     <value>MiddleLeft</value>
   </data>
   <data name="buttonInsertAdAndSlate.Location" type="System.Drawing.Point, System.Drawing">
-    <value>330, 100</value>
+    <value>329, 100</value>
   </data>
   <data name="buttonInsertAdAndSlate.Size" type="System.Drawing.Size, System.Drawing">
     <value>212, 27</value>
@@ -574,7 +574,7 @@
     <value>9, 3</value>
   </data>
   <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>560, 145</value>
+    <value>559, 145</value>
   </data>
   <data name="groupBox1.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -604,7 +604,7 @@
     <value>Segoe UI, 9pt</value>
   </data>
   <data name="label15.Location" type="System.Drawing.Point, System.Drawing">
-    <value>21, 265</value>
+    <value>20, 265</value>
   </data>
   <data name="label15.Size" type="System.Drawing.Size, System.Drawing">
     <value>521, 15</value>
@@ -673,7 +673,7 @@
     <value>145, 235</value>
   </data>
   <data name="textBoxJPGSearch.Size" type="System.Drawing.Size, System.Drawing">
-    <value>178, 23</value>
+    <value>177, 23</value>
   </data>
   <data name="textBoxJPGSearch.TabIndex" type="System.Int32, mscorlib">
     <value>82</value>
@@ -694,7 +694,7 @@
     <value>Bottom, Right</value>
   </data>
   <data name="progressBarUpload.Location" type="System.Drawing.Point, System.Drawing">
-    <value>330, 235</value>
+    <value>329, 235</value>
   </data>
   <data name="progressBarUpload.Size" type="System.Drawing.Size, System.Drawing">
     <value>98, 27</value>
@@ -724,7 +724,7 @@
     <value>Segoe UI, 9pt</value>
   </data>
   <data name="buttonUploadSlate.Location" type="System.Drawing.Point, System.Drawing">
-    <value>435, 235</value>
+    <value>434, 235</value>
   </data>
   <data name="buttonUploadSlate.Size" type="System.Drawing.Size, System.Drawing">
     <value>107, 27</value>
@@ -760,7 +760,7 @@
     <value>15, 28</value>
   </data>
   <data name="listViewJPG1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>527, 200</value>
+    <value>526, 200</value>
   </data>
   <data name="listViewJPG1.TabIndex" type="System.Int32, mscorlib">
     <value>61</value>
@@ -769,7 +769,7 @@
     <value>listViewJPG1</value>
   </data>
   <data name="&gt;&gt;listViewJPG1.Type" xml:space="preserve">
-    <value>AMSExplorer.ListViewSlateJPG, AMSExplorer, Version=3.46.1.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>AMSExplorer.ListViewSlateJPG, AMSExplorer, Version=4.0.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;listViewJPG1.Parent" xml:space="preserve">
     <value>groupBox2</value>
@@ -787,7 +787,7 @@
     <value>MiddleLeft</value>
   </data>
   <data name="buttonHideSlate.Location" type="System.Drawing.Point, System.Drawing">
-    <value>330, 333</value>
+    <value>329, 333</value>
   </data>
   <data name="buttonHideSlate.Size" type="System.Drawing.Size, System.Drawing">
     <value>212, 27</value>
@@ -823,7 +823,7 @@
     <value>MiddleLeft</value>
   </data>
   <data name="buttonShowSLate.Location" type="System.Drawing.Point, System.Drawing">
-    <value>330, 300</value>
+    <value>329, 300</value>
   </data>
   <data name="buttonShowSLate.Size" type="System.Drawing.Size, System.Drawing">
     <value>212, 27</value>
@@ -922,7 +922,7 @@
     <value>9, 167</value>
   </data>
   <data name="groupBox2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>560, 367</value>
+    <value>559, 367</value>
   </data>
   <data name="groupBox2.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -1088,6 +1088,9 @@
   </metadata>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>ja</value>
   </metadata>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
     <value>7, 15</value>

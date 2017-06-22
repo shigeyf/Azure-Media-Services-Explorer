@@ -237,6 +237,21 @@
   <data name="listViewPolicies.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left, Right</value>
   </data>
+  <data name="ListViewPoliciesName.Text" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="ListViewPoliciesName.Width" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="ListViewPoliciesType.Text" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="ListViewPoliciesProtocol.Text" xml:space="preserve">
+    <value>Protocol</value>
+  </data>
+  <data name="ListViewPoliciesId.Text" xml:space="preserve">
+    <value>Id</value>
+  </data>
   <data name="listViewPolicies.Location" type="System.Drawing.Point, System.Drawing">
     <value>19, 58</value>
   </data>
@@ -257,21 +272,6 @@
   </data>
   <data name="&gt;&gt;listViewPolicies.ZOrder" xml:space="preserve">
     <value>4</value>
-  </data>
-  <data name="ListViewPoliciesName.Text" xml:space="preserve">
-    <value>Name</value>
-  </data>
-  <data name="ListViewPoliciesName.Width" type="System.Int32, mscorlib">
-    <value>25</value>
-  </data>
-  <data name="ListViewPoliciesType.Text" xml:space="preserve">
-    <value>Type</value>
-  </data>
-  <data name="ListViewPoliciesProtocol.Text" xml:space="preserve">
-    <value>Protocol</value>
-  </data>
-  <data name="ListViewPoliciesId.Text" xml:space="preserve">
-    <value>Id</value>
   </data>
   <data name="DGDelPol.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Right</value>
@@ -383,6 +383,9 @@
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>ja</value>
   </metadata>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
     <value>7, 15</value>

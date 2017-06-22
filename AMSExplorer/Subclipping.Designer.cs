@@ -50,6 +50,7 @@
             this.textBoxConfiguration = new System.Windows.Forms.TextBox();
             this.tabPageTR = new System.Windows.Forms.TabPage();
             this.panelAssetInfo = new System.Windows.Forms.Panel();
+            this.labelDiscountinuity = new System.Windows.Forms.Label();
             this.groupBoxTrimming = new System.Windows.Forms.GroupBox();
             this.panelEDL = new System.Windows.Forms.Panel();
             this.buttonAddEDLEntry = new System.Windows.Forms.Button();
@@ -81,7 +82,6 @@
             this.buttonJobOptions = new AMSExplorer.ButtonJobOptions();
             this.label34 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.labelDiscountinuity = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             this.tabPageXML.SuspendLayout();
@@ -224,6 +224,12 @@
             this.panelAssetInfo.Controls.Add(this.labelAssetTimescale);
             resources.ApplyResources(this.panelAssetInfo, "panelAssetInfo");
             this.panelAssetInfo.Name = "panelAssetInfo";
+            // 
+            // labelDiscountinuity
+            // 
+            resources.ApplyResources(this.labelDiscountinuity, "labelDiscountinuity");
+            this.labelDiscountinuity.ForeColor = System.Drawing.Color.Red;
+            this.labelDiscountinuity.Name = "labelDiscountinuity";
             // 
             // groupBoxTrimming
             // 
@@ -461,12 +467,6 @@
             resources.ApplyResources(this.panel2, "panel2");
             this.panel2.BackColor = System.Drawing.SystemColors.Control;
             this.panel2.Name = "panel2";
-            // 
-            // labelDiscountinuity
-            // 
-            resources.ApplyResources(this.labelDiscountinuity, "labelDiscountinuity");
-            this.labelDiscountinuity.ForeColor = System.Drawing.Color.Red;
-            this.labelDiscountinuity.Name = "labelDiscountinuity";
             // 
             // Subclipping
             // 

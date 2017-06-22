@@ -647,7 +647,7 @@ For each workflow selected, one parallel task will be created in the job.</value
     <value>buttonPremiumXMLData</value>
   </data>
   <data name="&gt;&gt;buttonPremiumXMLData.Type" xml:space="preserve">
-    <value>AMSExplorer.ButtonPremiumXMLData, AMSExplorer, Version=3.46.1.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>AMSExplorer.ButtonPremiumXMLData, AMSExplorer, Version=4.0.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;buttonPremiumXMLData.Parent" xml:space="preserve">
     <value>$this</value>
@@ -674,7 +674,7 @@ For each workflow selected, one parallel task will be created in the job.</value
     <value>buttonJobOptions</value>
   </data>
   <data name="&gt;&gt;buttonJobOptions.Type" xml:space="preserve">
-    <value>AMSExplorer.ButtonJobOptions, AMSExplorer, Version=3.46.1.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>AMSExplorer.ButtonJobOptions, AMSExplorer, Version=4.0.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;buttonJobOptions.Parent" xml:space="preserve">
     <value>$this</value>
@@ -698,7 +698,7 @@ For each workflow selected, one parallel task will be created in the job.</value
     <value>listViewWorkflows</value>
   </data>
   <data name="&gt;&gt;listViewWorkflows.Type" xml:space="preserve">
-    <value>AMSExplorer.ListViewWorkflows, AMSExplorer, Version=3.46.1.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>AMSExplorer.ListViewWorkflows, AMSExplorer, Version=4.0.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;listViewWorkflows.Parent" xml:space="preserve">
     <value>$this</value>
@@ -708,6 +708,9 @@ For each workflow selected, one parallel task will be created in the job.</value
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>ja</value>
   </metadata>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
     <value>7, 15</value>

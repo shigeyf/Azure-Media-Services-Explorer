@@ -139,13 +139,10 @@
   <data name="labelVersion.Text" xml:space="preserve">
     <value>バージョン</value>
   </data>
-  <data name="buttonLicTerms.Text" xml:space="preserve">
-    <value>ライセンス条項...</value>
-  </data>
   <data name="labelCopyright.Text" xml:space="preserve">
     <value>著作権</value>
   </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>AboutBox1</value>
+  <data name="buttonLicTerms.Text" xml:space="preserve">
+    <value>ライセンス条項...</value>
   </data>
 </root>

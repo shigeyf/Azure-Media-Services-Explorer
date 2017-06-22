@@ -53,6 +53,7 @@
             this.moreinfoame = new System.Windows.Forms.LinkLabel();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.TabPagePreset = new System.Windows.Forms.TabPage();
+            this.linkLabelAdaptiveStreamingPreset = new System.Windows.Forms.LinkLabel();
             this.labelOutputMinuteMultiplier = new System.Windows.Forms.Label();
             this.labelInfoTextNoAdvancedFeature = new System.Windows.Forms.Label();
             this.TabPageAdvanced = new System.Windows.Forms.TabPage();
@@ -208,7 +209,6 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             this.buttonJobOptions = new AMSExplorer.ButtonJobOptions();
-            this.linkLabelAdaptiveStreamingPreset = new System.Windows.Forms.LinkLabel();
             this.panel1.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.TabPagePreset.SuspendLayout();
@@ -406,6 +406,13 @@
             resources.ApplyResources(this.TabPagePreset, "TabPagePreset");
             this.TabPagePreset.Name = "TabPagePreset";
             this.TabPagePreset.UseVisualStyleBackColor = true;
+            // 
+            // linkLabelAdaptiveStreamingPreset
+            // 
+            resources.ApplyResources(this.linkLabelAdaptiveStreamingPreset, "linkLabelAdaptiveStreamingPreset");
+            this.linkLabelAdaptiveStreamingPreset.Name = "linkLabelAdaptiveStreamingPreset";
+            this.linkLabelAdaptiveStreamingPreset.TabStop = true;
+            this.linkLabelAdaptiveStreamingPreset.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel_LinkClicked);
             // 
             // labelOutputMinuteMultiplier
             // 
@@ -1655,13 +1662,6 @@
             resources.ApplyResources(this.buttonJobOptions, "buttonJobOptions");
             this.buttonJobOptions.Name = "buttonJobOptions";
             this.buttonJobOptions.UseVisualStyleBackColor = true;
-            // 
-            // linkLabelAdaptiveStreamingPreset
-            // 
-            resources.ApplyResources(this.linkLabelAdaptiveStreamingPreset, "linkLabelAdaptiveStreamingPreset");
-            this.linkLabelAdaptiveStreamingPreset.Name = "linkLabelAdaptiveStreamingPreset";
-            this.linkLabelAdaptiveStreamingPreset.TabStop = true;
-            this.linkLabelAdaptiveStreamingPreset.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel_LinkClicked);
             // 
             // EncodingMES
             // 

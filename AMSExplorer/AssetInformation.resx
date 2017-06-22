@@ -1057,37 +1057,37 @@
     <value>17, 56</value>
   </metadata>
   <data name="filterInfoupdateToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>171, 22</value>
+    <value>179, 30</value>
   </data>
   <data name="filterInfoupdateToolStripMenuItem.Text" xml:space="preserve">
     <value>Filter info/update</value>
   </data>
   <data name="createAnAssetFilterToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>171, 22</value>
+    <value>179, 30</value>
   </data>
   <data name="createAnAssetFilterToolStripMenuItem.Text" xml:space="preserve">
     <value>Create...</value>
   </data>
   <data name="deleteToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>171, 22</value>
+    <value>179, 30</value>
   </data>
   <data name="deleteToolStripMenuItem.Text" xml:space="preserve">
     <value>Delete</value>
   </data>
   <data name="duplicateToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>171, 22</value>
+    <value>179, 30</value>
   </data>
   <data name="duplicateToolStripMenuItem.Text" xml:space="preserve">
     <value>Duplicate</value>
   </data>
   <data name="playWithThisFilterToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>171, 22</value>
+    <value>179, 30</value>
   </data>
   <data name="playWithThisFilterToolStripMenuItem.Text" xml:space="preserve">
     <value>Play with this filter</value>
   </data>
   <data name="contextMenuStripFilter.Size" type="System.Drawing.Size, System.Drawing">
-    <value>172, 114</value>
+    <value>180, 154</value>
   </data>
   <data name="&gt;&gt;contextMenuStripFilter.Name" xml:space="preserve">
     <value>contextMenuStripFilter</value>
@@ -2096,6 +2096,9 @@
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>ja</value>
   </metadata>
   <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>155</value>
